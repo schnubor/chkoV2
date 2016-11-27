@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -41,6 +42,7 @@
   background-color: #202020;
   border-radius: 0;
   color: #F1F1F1;
+  font-family: 'Droid Sans Mono', monospace;
 }
 .jumbotron h1 {
   font-size: 1em;
@@ -51,6 +53,7 @@
 .jumbotron .typer {
   font-size: 0.75em;
   color: #9e9e9e;
+  font-family: 'Droid Sans Mono', monospace;
 }
 footer {
   padding-bottom: 50px;
