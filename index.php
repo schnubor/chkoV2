@@ -21,19 +21,18 @@ $currentPage = "Home";
           $(function(){
               $(".typer").typed({
                 strings: [
-                    "Full-stack web development",
                     "Node.js",
                     "React.js",
                     "Vue.js",
                     "Backbone.js",
-                    "AWS infrastructure",
+                    "AWS",
                     "Docker",
+                    "Videogames",
                     "Ansible",
                     "Laravel",
                     "Open source",
                     "UI/UX design",
-                    "Burger 🍔 ",
-                    "Videogames"
+                    "Burger 🍔 "
                 ],
                 typeSpeed: 60,
                 loop: true,
