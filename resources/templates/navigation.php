@@ -1,5 +1,5 @@
-<div class="container">
-    <ul class="nav nav-pills">
+<nav>
+    <ul class="nav">
         <?php
             foreach($pages as $page => $url) {
                 if($currentPage == $page) {
@@ -15,5 +15,4 @@
             }
         ?>
     </ul>
-    <hr>
-</div>
+</nav>

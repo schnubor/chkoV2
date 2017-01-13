@@ -12,7 +12,8 @@ defined("ASSETS_PATH")
     or define("ASSETS_PATH", realpath(dirname(__FILE__) . '/../assets'));
 
 $pages = [
-    "Features" => "/",
-    "Usage" => "/usage"
+    "About" => "/about",
+    "Projects" => "/projects",
+    "Contact" => "/contact",
 ];
 ?>

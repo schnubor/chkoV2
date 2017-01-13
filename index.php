@@ -11,28 +11,27 @@ $currentPage = "Home";
     His work ranges from designing user interfaces to implementing APIs and server infrastructure."); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
-        <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div class="container">
-
+            <p class="lead intro">
+                Working and living in Berlin as a full-stack web developer
+                I design, build and ship web applications since 2008.
+                I value constant learning, challenging problems, enthusiastic
+                people around me and the open source movement.
+            </p>
         </div>
 
         <script>
           $(function(){
               $(".typer").typed({
                 strings: [
-                    "Node.js",
-                    "React.js",
-                    "Vue.js",
-                    "Backbone.js",
-                    "AWS",
-                    "Docker",
-                    "Videogames",
-                    "Ansible",
-                    "Laravel",
-                    "Open source",
-                    "UI/UX design",
-                    "Burger 🍔 "
+                    "Full-stack developer",
+                    "Video game addict",
+                    "Software engineer",
+                    "Laravel fanboy",
+                    "Open source defender",
+                    "Burger lover 🍔 ",
+                    "HTML/CSS/JS coach"
                 ],
                 typeSpeed: 60,
                 loop: true,
