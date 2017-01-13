@@ -1,11 +1,22 @@
 nav {
     display: inline-block;
     float: right;
+
+    @media screen and (max-width: 768px) {
+        float: left;
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }
 }
 
 .nav {
     li {
         display: inline-block;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
     }
 
     .nav-link {
@@ -14,6 +25,16 @@ nav {
         opacity: .7;
         padding-left: 20px;
         font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 200;
+
+        @media screen and (max-width: 768px) {
+            padding: 10px 0;
+            opacity: 1;
+            border-top: 1px solid @grey;
+            width: 100%;
+        }
+
         &:hover {
             opacity: 1;
         }

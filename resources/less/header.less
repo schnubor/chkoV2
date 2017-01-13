@@ -1,9 +1,12 @@
 .jumbotron {
-    background-color: #202020;
+    background-color: @dark-grey;
     border-radius: 0;
-    color: #F1F1F1;
-    font-family: 'Droid Sans Mono', monospace;
+    color: @white;
     padding: 40px;
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 0 30px;
+    }
 
     .logo {
         float: left;
@@ -18,7 +21,7 @@
 
     .typer {
         font-size: 0.75em;
-        color: #9e9e9e;
+        color: @light-grey;
         font-family: 'Droid Sans Mono', monospace;
     }
 
@@ -35,15 +38,15 @@
         background-color: #CCCCCC;
 
         &.red {
-            background-color: #da432b;
+            background-color: @red;
         }
 
         &.yellow {
-            background-color: #e6cc44;
+            background-color: @yellow;
         }
 
         &.green {
-            background-color: #57cb54;
+            background-color: @green;
         }
     }
 }

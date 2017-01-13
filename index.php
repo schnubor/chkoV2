@@ -12,12 +12,12 @@ $currentPage = "Home";
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
 
-        <div class="container">
+        <div id="home" class="container">
             <p class="lead intro">
                 Working and living in Berlin as a full-stack web developer
-                I design, build and ship web applications since 2008.
-                I value constant learning, challenging problems, enthusiastic
-                people around me and the open source movement.
+                I design, build and ship web applications since 2008. <br>
+                I value constant learning, teaching, challenging problems,
+                enthusiastic people around me and open source.
             </p>
         </div>
 

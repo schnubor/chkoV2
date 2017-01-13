@@ -42,8 +42,12 @@
   background-color: #202020;
   border-radius: 0;
   color: #F1F1F1;
-  font-family: 'Droid Sans Mono', monospace;
   padding: 40px;
+}
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding: 40px 0 30px;
+  }
 }
 .jumbotron .logo {
   float: left;
@@ -83,8 +87,21 @@ nav {
   display: inline-block;
   float: right;
 }
+@media screen and (max-width: 768px) {
+  nav {
+    float: left;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+  }
+}
 .nav li {
   display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .nav li {
+    display: block;
+  }
 }
 .nav .nav-link {
   color: white;
@@ -92,27 +109,31 @@ nav {
   opacity: .7;
   padding-left: 20px;
   font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+@media screen and (max-width: 768px) {
+  .nav .nav-link {
+    padding: 10px 0;
+    opacity: 1;
+    border-top: 1px solid #404040;
+    width: 100%;
+  }
 }
 .nav .nav-link:hover {
   opacity: 1;
 }
-.jumbotron {
-  background-color: #202020;
-  border-radius: 0;
-  color: #F1F1F1;
-  font-family: 'Droid Sans Mono', monospace;
+#home .intro {
+  font-size: 32px;
+  width: 80%;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
-.jumbotron h1 {
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 200;
-  letter-spacing: 2px;
+@media screen and (max-width: 768px) {
+  #home .intro {
+    width: 100%;
+    font-size: 24px;
+  }
 }
-.jumbotron .typer {
-  font-size: 0.75em;
-  color: #9e9e9e;
-  font-family: 'Droid Sans Mono', monospace;
-}
-footer {
-  padding-bottom: 50px;
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
