@@ -16,9 +16,13 @@ $currentPage = "Home";
             <p class="lead intro">
                 Working and living in Berlin as a full-stack web developer
                 I design, build and ship web applications since 2008. <br>
-                I value constant learning, teaching, challenging problems,
-                enthusiastic people around me and open source.
+                I enjoy helping enthusiatic people bringing their ideas to life,
+                while keeping them robust and clean.
             </p>
+            <a class="codeLink" href="/about">getAbout();</a>
+            <a class="codeLink" href="/about">getCV();</a>
+
+            <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 
         <script>

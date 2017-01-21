@@ -3,10 +3,40 @@
         font-size: 32px;
         width: 80%;
         font-family: 'Roboto', Helvetica, sans-serif;
+        margin-bottom: 40px;
 
         @media screen and (max-width: 768px) {
             width: 100%;
             font-size: 24px;
+        }
+    }
+
+    .codeLink {
+        display: inline-block;
+        font-family: 'Droid Sans Mono', Helvetica, sans-serif;
+        border: 1px solid @light-grey;
+        color: @light-grey;
+        padding: 5px 10px 8px;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: .2s all;
+
+        &:hover {
+            border: 1px solid @dark-grey;
+            background-color: @dark-grey;
+            color: @green;
+            text-decoration: none;
+        }
+    }
+
+    h2{
+        font-family: 'Roboto', Helvetica, sans-serif;
+        margin: 90px 0 40px;
+    }
+
+    .projects {
+        img {
+            width: 100%;
         }
     }
 }
