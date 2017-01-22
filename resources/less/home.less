@@ -35,8 +35,36 @@
     }
 
     .projects {
+        font-family: 'Roboto', Helvetica, sans-serif;
+
         img {
             width: 100%;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            transition: .2s all;
+
+            &:hover {
+                color: @red;
+            }
+        }
+
+        p{
+            color: @light-grey;
+            letter-spacing: 1px;
+            font-weight: 200;
+            font-size: 12px;
         }
     }
 }

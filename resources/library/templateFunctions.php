@@ -3,6 +3,7 @@
 
     function renderHead($title, $description)
     {
+        // Compile .less files
         require_once(LIBRARY_PATH . '/lessc.inc.php');
         $less = new lessc;
         $less->compileFile(
@@ -10,6 +11,7 @@
             ASSETS_PATH . '/css/main.css'
         );
 
+        // Add meta information
         require_once(TEMPLATES_PATH . '/head.php');
 
         echo "\t<title>" . $title . "</title>";
@@ -22,5 +24,21 @@
         echo "\t<meta property=\"og:description\" content=\"" . $description . "\">\n";
         echo "\t<meta property=\"og:site_name\" content=\"Dr. med. B. Schulze - Fachärztin für Urologie\">\n";
         echo "</head>";
+    }
+
+    function renderProjectTile($image, $title, $description, $link, $right = false)
+    {
+        $cssClass = "col-md-5";
+        // set class depending on position
+        if( $right ) {
+            $cssClass = "col-md-5 offset-md-2";
+        }
+        echo "<div class=\"". $cssClass . "\">";
+        echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\">";
+        echo "\t\t<img src=\"" . $image . "\" alt=\"" . $title . "\">";
+        echo "\t</a>";
+        echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\"><h3>" . $title . "</h3></a>";
+        echo "\t<p>" . $description . "</p>";
+        echo "</div>";
     }
 ?>

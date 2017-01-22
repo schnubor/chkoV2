@@ -2,36 +2,30 @@
     <h2>Projects</h2>
 
     <div class="row">
-        <div class="col-md-5">
-            <a href="#">
-                <img src="/assets/images/projects/tapetv/tapetv1.png" alt="tape.tv">
-            </a>
-            <h3>tape.tv</h3>
-            <p>My work for tape.tv</p>
-        </div>
-        <div class="col-md-5 offset-md-2">
-            <a href="#">
-                <img src="/assets/images/projects/kioskroyale/kioskroyale1.png" alt="Kiosk Royale">
-            </a>
-            <h3>Kiosk Royale</h3>
-            <p>Portfolio website for a Berlin based Design agency.</p>
-        </div>
+        <?php renderProjectTile(
+            "/assets/images/projects/tapetv/tapetv1.png",
+            "tape.tv",
+            "Full-time company work",
+            "/projects/tapetv" ) ?>
+
+        <?php renderProjectTile(
+            "/assets/images/projects/kioskroyal/kioskroyal1.png",
+            "kiosk-royal.com",
+            "Design agency portfolio.",
+            "/projects/kiosk-royal", true ) ?>
     </div>
 
-    <div class="row">
-        <div class="col-md-5">
-            <a href="#">
-                <img src="/assets/images/projects/grandbrothers/grandbrothers1.png" alt="Grandbrothers">
-            </a>
-            <h3>Grandbrothers</h3>
-            <p>Official website for a german band called "Grandbrothers".
-        </div>
-        <div class="col-md-5 offset-md-2">
-            <a href="#">
-                <img src="/assets/images/projects/kioskroyale/kioskroyale2.png" alt="Steve Reich Sixpianos">
-            </a>
-            <h3>Steve Reich - Sixpianos</h3>
-            <p>Official website of Steve Reichs piece "Six Pianos".</p>
-        </div>
+    <div class="row mt60">
+        <?php renderProjectTile(
+            "/assets/images/projects/grandbrothers/grandbrothers1.png",
+            "Grandbrothersmusic.com",
+            "Official website.",
+            "/projects/grandbrothers" ) ?>
+
+            <?php renderProjectTile(
+                "/assets/images/projects/sixpianos/sixpianos1.png",
+                "Steve Reich – Six Pianos",
+                "Official website.",
+                "/projects/sixpianos", true ) ?>
     </div>
 </div>

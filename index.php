@@ -17,7 +17,7 @@ $currentPage = "Home";
                 Working and living in Berlin as a full-stack web developer
                 I design, build and ship web applications since 2008. <br>
                 I enjoy helping enthusiatic people bringing their ideas to life,
-                while keeping them robust and clean.
+                while keeping them clean and robust.
             </p>
             <a class="codeLink" href="/about">getAbout();</a>
             <a class="codeLink" href="/about">getCV();</a>
