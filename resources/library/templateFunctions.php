@@ -26,7 +26,7 @@
         echo "</head>";
     }
 
-    function renderProjectTile($image, $title, $description, $link, $right = false)
+    function renderProjectTile($image, $title, $description, $link, $right = false, $tags = [])
     {
         $cssClass = "col-md-5";
         // set class depending on position
@@ -39,6 +39,12 @@
         echo "\t</a>";
         echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\"><h3>" . $title . "</h3></a>";
         echo "\t<p>" . $description . "</p>";
+        echo "\t<ul>";
+        foreach($tags as $tag)
+        {
+            echo "\t\t<li>" . $tag . "</li>";
+        }
+        echo "\t</ul>";
         echo "</div>";
     }
 ?>
