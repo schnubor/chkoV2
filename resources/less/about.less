@@ -1,0 +1,55 @@
+#about {
+    font-family: 'Roboto', Helvetica, sans-serif;
+
+    .profile {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-color: @white;
+        padding: 30px 15px;
+        box-sizing: content-box;
+
+        .avatar {
+            width: 100%;
+        }
+    }
+
+    p{
+        line-height: 2em;
+        font-size: 18px;
+        font-family: 'Roboto', Helvetica, sans-serif;
+
+        a {
+            color: @red;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    address {
+        letter-spacing: 1px;
+
+        a {
+            color: @light-grey;
+
+            &:hover {
+                color: @red;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .btn {
+        color: @light-grey;
+        border: 1px solid @light-grey;
+        font-size: 12px;
+        letter-spacing: 1px;
+        transition: .2s all;
+
+        &:hover {
+            border: 1px solid @red;
+            color: @red;
+        }
+    }
+}

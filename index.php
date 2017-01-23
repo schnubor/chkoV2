@@ -25,27 +25,6 @@ $currentPage = "Home";
             <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 
-        <script>
-          $(function(){
-              $(".typer").typed({
-                strings: [
-                    "Full-stack developer",
-                    "Video game addict",
-                    "Software engineer",
-                    "Laravel fanboy",
-                    "Open source defender",
-                    "Burger lover 🍔 ",
-                    "HTML/CSS/JS coach"
-                ],
-                typeSpeed: 60,
-                loop: true,
-                backDelay: 1500,
-                cursorChar: '_',
-                shuffle: true
-              });
-          });
-        </script>
-
         <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>
     </body>
 </html>
