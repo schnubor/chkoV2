@@ -8,15 +8,16 @@ $currentPage = "Projects";
 <!DOCTYPE html>
 <html>
     <?php renderHead(
-        "PHP Boilerplate - Usage",
-        "How to use PHP Boilerplate."
+        "Christian Korndoerfer | Projects",
+        "Christian Korndörfer is a full-stack web engineer living and working in Berlin.
+        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div class="container">
-
+            <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 
         <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>
