@@ -5,6 +5,11 @@
             include('navigation.php');
         ?>
         <p class="pull-right">
+            <a href="https://web.facebook.com/chko.org"
+               title="Facebook page"
+               target="_blank">
+                <i class="fa fa-fw fa-facebook"></i>
+            </a>
             <a href="http://twitter.com/schnubor"
                title="Twitter feed"
                target="_blank">
