@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set( "Europe/Berlin" );
+
 defined("LIBRARY_PATH")
     or define("LIBRARY_PATH", realpath(dirname(__FILE__) . '/library'));
 

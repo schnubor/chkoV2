@@ -31,8 +31,12 @@ $currentPage = "About";
                             <a href="mailto:info@chko.org">info@chko.org</a>
                         </address>
                         <a href="/downloads/CV.pdf" class="btn" title="Download CV">
-                            Download CV
+                            <i class="fa fa-fw fa-download"></i> Download CV
                         </a>
+                        <a href="https://github.com/schnubor" class="btn" title="Github account">
+                            <i class="fa fa-fw fa-github"></i> Github
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -64,7 +68,7 @@ $currentPage = "About";
                     </p>
                     <p>
                         For more information feel free to check out my
-                        <a href="https://github.com/schnubor" title="Github" target="_blank">Github</a>
+                        <a href="/projects" title="Projects">Projects</a>
                         and <a href="/contact" title="Contact form">get in touch</a> if you've any further questions or inquiries.
                     </p>
                 </div>

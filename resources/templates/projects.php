@@ -26,12 +26,32 @@
             "Official website.",
             "/projects/grandbrothers",
             false,
-            ['PHP', 'Laravel', 'Digital Ocean'] ) ?>
+            ['PHP', 'Laravel', 'Forge', 'Digital Ocean'] ) ?>
+
+        <?php renderProjectTile(
+            "/assets/images/projects/fortherecord/fortherecord1.png",
+            "fortherecord.de",
+            "Platform for vinyl collectors and part of my master thesis.",
+            "/projects/fortherecord",
+            true,
+            ['PHP', 'Laravel', 'Forge', 'Digital Ocean'] ) ?>
+    </div>
+
+    <h2>Employments</h2>
+
+    <div class="row mt60">
+        <?php renderProjectTile(
+            "/assets/images/projects/styla/styla1.png",
+            "styla.com",
+            "Full-time employment. 2014 – now",
+            "/projects/styla",
+            false,
+            ['Backbone.js', 'React.js', 'Node.js', 'AWS'] ) ?>
 
         <?php renderProjectTile(
             "/assets/images/projects/tapetv/tapetv1.png",
             "tape.tv",
-            "Full-time employment.",
+            "Full-time employment. 2012 – 2014",
             "/projects/tapetv",
             true,
             ['Ruby on Rails', 'Backbone.js', 'AWS'] ) ?>

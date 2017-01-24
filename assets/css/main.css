@@ -198,6 +198,7 @@ footer nav .nav .nav-link {
 }
 #about address {
   letter-spacing: 1px;
+  padding-top: 5px;
 }
 #about address a {
   color: #9e9e9e;
@@ -255,6 +256,7 @@ footer nav .nav .nav-link {
   padding: 0;
 }
 .projects ul li {
+  font-family: 'Droid Sans Mono', Helvetica, sans-serif;
   display: inline-block;
   border-radius: 3px;
   border: 1px solid #9e9e9e;
@@ -276,6 +278,11 @@ footer a:hover {
   opacity: 1;
   text-decoration: none;
   color: #da432b;
+}
+footer small {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: #9e9e9e;
+  letter-spacing: 1px;
 }
 .mt60 {
   margin-top: 60px;

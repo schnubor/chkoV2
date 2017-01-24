@@ -14,8 +14,5 @@
                 echo "</li>";
             }
         ?>
-        <li class="nav-item">
-            <a href="/legal" class="nav-link" title="legal notice">Legal</a>
-        </a>
     </ul>
 </nav>

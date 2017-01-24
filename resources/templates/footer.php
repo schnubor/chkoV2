@@ -1,10 +1,28 @@
 <footer>
     <div class="container">
         <hr>
-        <?php
-            include('navigation.php');
-        ?>
-        <p class="pull-right">
+        <nav>
+            <ul class="nav">
+                <?php
+                    foreach($pages as $page => $url) {
+                        if($currentPage == $page) {
+                            $active = "active";
+                        } else {
+                            $active = "";
+                        }
+
+                        echo "<li class=\"nav-item\">";
+                        echo "<a class=\"nav-link " . $active . "\" ";
+                        echo "href=\"" . $url . "\">" . $page . "</a>";
+                        echo "</li>";
+                    }
+                ?>
+                <li class="nav-item">
+                    <a href="/legal" class="nav-link" title="legal notice">Legal</a>
+                </a>
+            </ul>
+        </nav>
+        <p class="pull-left">
             <a href="https://web.facebook.com/chko.org"
                title="Facebook page"
                target="_blank">
@@ -26,6 +44,9 @@
                <i class="fa fa-fw fa-github"></i>
             </a>
         </p>
+        <small class="pull-right">
+            © <?php echo date("Y"); ?> Christian Korndörfer
+        </small>
     </div>
 </footer>
 
