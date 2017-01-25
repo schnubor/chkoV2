@@ -14,7 +14,7 @@
         // Add meta information
         require_once(TEMPLATES_PATH . '/head.php');
 
-        echo "\t<title>" . $title . "</title>";
+        echo "\t<title>" . $title . "</title>\n";
         echo "\t<meta name=\"description\" content=\"" . $description . "\">\n";
         echo "\t<link rel=\"canonical\" href=\"http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}\">\n";
         echo "\t<meta property=\"og:url\" content=\"http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}\">\n";

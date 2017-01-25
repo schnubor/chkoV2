@@ -34,7 +34,7 @@
             "Platform for vinyl collectors and part of my master thesis.",
             "/projects/fortherecord",
             true,
-            ['PHP', 'Laravel', 'Forge', 'Digital Ocean'] ) ?>
+            ['PHP', 'Laravel', 'REST', 'Vue.js', 'Digital Ocean'] ) ?>
     </div>
 
     <h2>Employments</h2>

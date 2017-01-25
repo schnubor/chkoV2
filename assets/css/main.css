@@ -133,6 +133,9 @@ footer nav .nav .nav-link {
   letter-spacing: 1px;
   font-weight: 200;
 }
+.nav .nav-link.active {
+  opacity: 1;
+}
 @media screen and (max-width: 768px) {
   .nav .nav-link {
     padding: 10px 0;
@@ -264,6 +267,25 @@ footer nav .nav .nav-link {
   font-size: 12px;
   letter-spacing: 1px;
   padding: 2px 6px;
+}
+.singleProject h1 {
+  font-size: 2rem;
+  margin: 90px 0 40px;
+}
+.singleProject p {
+  line-height: 2em;
+  font-size: 18px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+.singleProject p a {
+  color: #da432b;
+}
+.singleProject p a:hover {
+  text-decoration: none;
+}
+.singleProject .images img {
+  width: 100%;
+  margin: 20px 0;
 }
 footer {
   margin-top: 60px;
