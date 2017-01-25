@@ -1,4 +1,4 @@
-![Screenshot](http://imgur.com/U8UUVQh.png)
+![Screenshot](http://imgur.com/U8UUVQh.jpg)
 
 # PHP Boilerplate
 

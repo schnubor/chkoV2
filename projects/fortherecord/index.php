@@ -33,8 +33,8 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/fortherecord/fortherecord2.png" alt="Welcome screen">
-            <img src="/assets/images/projects/fortherecord/fortherecord1.png" alt="Vinyl collection">
+            <img src="/assets/images/projects/fortherecord/fortherecord2.jpg" alt="Welcome screen">
+            <img src="/assets/images/projects/fortherecord/fortherecord1.jpg" alt="Vinyl collection">
         </div>
 
         <div class="row">

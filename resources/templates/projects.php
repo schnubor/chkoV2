@@ -3,7 +3,7 @@
 
     <div class="row">
         <?php renderProjectTile(
-            "/assets/images/projects/sixpianos/sixpianos1.png",
+            "/assets/images/projects/sixpianos/sixpianos1.jpg",
             "Steve Reich – Six Pianos",
             "Official website.",
             "/projects/sixpianos",
@@ -11,7 +11,7 @@
             ['HTML5/CSS3/JS', 'Managed hosting']) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/kioskroyal/kioskroyal1.png",
+            "/assets/images/projects/kioskroyal/kioskroyal1.jpg",
             "kiosk-royal.com",
             "Design agency portfolio.",
             "/projects/kiosk-royal",
@@ -21,7 +21,7 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/grandbrothers/grandbrothers1.png",
+            "/assets/images/projects/grandbrothers/grandbrothers1.jpg",
             "Grandbrothersmusic.com",
             "Official website.",
             "/projects/grandbrothers",
@@ -29,7 +29,7 @@
             ['PHP', 'Laravel', 'Forge', 'Digital Ocean'] ) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/fortherecord/fortherecord1.png",
+            "/assets/images/projects/fortherecord/fortherecord1.jpg",
             "fortherecord.de",
             "Platform for vinyl collectors and part of my master thesis.",
             "/projects/fortherecord",
@@ -41,7 +41,7 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/styla/styla1.png",
+            "/assets/images/projects/styla/styla1.jpg",
             "styla.com",
             "Full-time employment. 2014 – now",
             "/projects/styla",
@@ -49,7 +49,7 @@
             ['Backbone.js', 'React.js', 'Node.js', 'AWS'] ) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/tapetv/tapetv1.png",
+            "/assets/images/projects/tapetv/tapetv1.jpg",
             "tape.tv",
             "Full-time employment. 2012 – 2014",
             "/projects/tapetv",
