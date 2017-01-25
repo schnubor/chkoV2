@@ -55,9 +55,10 @@
       $(".typer").typed({
         strings: [
             "Full-stack developer",
-            "Video game addict",
+            "Video game addict 🕹️",
             "Software engineer",
             "Laravel fanboy",
+            "Vue.js fanboy",
             "Open source defender",
             "Burger lover 🍔 ",
             "HTML/CSS/JS coach"
