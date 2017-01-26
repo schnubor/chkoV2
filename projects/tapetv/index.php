@@ -8,7 +8,7 @@ $currentPage = "Projects";
 <!DOCTYPE html>
 <html lang="en">
 <?php renderHead(
-        "Christian Korndoerfer | Web Development | Tape.tv",
+        "Christian Korndoerfer | Web Development | tape.tv",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
         His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>
@@ -17,7 +17,7 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
-    <div class="container singleProject">
+    <div class="container singleProject text">
         <h1>tape.tv</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
@@ -72,9 +72,13 @@ $currentPage = "Projects";
                     <br/><br/>
                     Besides all that I also did some motion works including the opening sequence
                     of the Vodafone sponsored show <a href="https://vimeo.com/35758324" title="The Night Start Here Intro Video" target="_blank">The Night Starts Here</a>.
+                    <br><br>
+                    tape.tv had a good run, but went out of business in november 2016.
                 </p>
             </div>
         </div>
+
+        <a href="/projects" class="btn">&#8592; Back to overview</a>
     </div>
 
     <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>

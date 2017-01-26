@@ -16,8 +16,8 @@ $currentPage = "About";
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
-        <div id="about" class="container">
-            <h2>About</h2>
+        <div id="about" class="container text">
+            <h1>About</h1>
             <div class="row">
                 <div class="col-md-6 offset-md-1 profile">
                     <div class="col-md-4">
