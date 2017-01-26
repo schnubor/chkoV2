@@ -178,7 +178,7 @@ footer nav .nav .nav-link {
   text-decoration: none;
 }
 #about {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Rubik', Helvetica, sans-serif;
 }
 #about h1 {
   font-size: 2rem;
@@ -198,7 +198,7 @@ footer nav .nav .nav-link {
 #about p {
   line-height: 2em;
   font-size: 18px;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Rubik', Helvetica, sans-serif;
 }
 #about p a {
   color: #da432b;
@@ -229,10 +229,10 @@ footer nav .nav .nav-link {
   color: #da432b;
 }
 .projects {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Rubik', Helvetica, sans-serif;
 }
 .projects h2 {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Rubik', Helvetica, sans-serif;
   margin: 90px 0 40px;
 }
 .projects img {
@@ -240,7 +240,8 @@ footer nav .nav .nav-link {
 }
 .projects h3 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: 'Rubik', Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 5px;
@@ -337,7 +338,4 @@ footer small {
 .text .btn:hover {
   color: #202020;
   border: 1px solid #202020;
-}
-body {
-  font-family: 'Roboto', Helvetica, sans-serif;
 }
