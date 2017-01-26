@@ -14,7 +14,7 @@
             "/assets/images/projects/kioskroyal/kioskroyal1.jpg",
             "kiosk-royal.com",
             "Design agency portfolio.",
-            "/projects/kiosk-royal",
+            "/projects/kioskroyal",
             true,
             ['PHP', 'Laravel', 'Digital Ocean'] ) ?>
     </div>

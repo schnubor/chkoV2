@@ -10,7 +10,8 @@ $currentPage = "Projects";
 <?php renderHead(
         "Christian Korndoerfer | Web Development | Kiosk Royal",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        His work ranges from designing user interfaces to implementing APIs and server infrastructure.",
+        "/assets/images/projects/kioskroyal/kioskroyal2.jpg"
     ); ?>
 
 <body>
@@ -32,8 +33,9 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/fortherecord/fortherecord2.jpg" alt="Welcome screen">
-            <img src="/assets/images/projects/fortherecord/fortherecord1.jpg" alt="Vinyl collection">
+            <img src="/assets/images/projects/kioskroyal/kioskroyal2.jpg" alt="Welcome screen">
+            <img src="/assets/images/projects/kioskroyal/kioskroyal1.jpg" alt="Kiosk Royal projects">
+            <img src="/assets/images/projects/kioskroyal/kioskroyal3.jpg" alt="Backend UI of the CMS">
         </div>
 
         <div class="row">
