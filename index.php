@@ -7,7 +7,7 @@ $currentPage = "Home";
 
 <!DOCTYPE html>
 <html>
-    <?php renderHead("Christian Korndörfer | Web Development", "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
+    <?php renderHead("Christian Korndörfer | Web Developer", "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
     His work ranges from designing user interfaces to implementing APIs and server infrastructure."); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>

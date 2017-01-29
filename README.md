@@ -1,6 +1,6 @@
 ![Screenshot](http://imgur.com/U8UUVQh.jpg)
 
-# PHP Boilerplate
+# CHKO
 
 Boilerplate to quickly knock out small PHP based projects.
 Supports Bootstrap V4, LESS support and Font Awesome icons.
@@ -54,3 +54,7 @@ $currentPage = {pagename};
 
 - Replace `{pagename}`, `{title}` and `{description}` with actual content.
 - Open `resources/config.php` and add the new page to the `$page` array.
+
+### Change status
+
+The current status can be defined in the `config.php`

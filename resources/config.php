@@ -18,4 +18,6 @@ $pages = [
     "Projects" => "/projects",
     "Contact" => "/contact",
 ];
+
+$status = "hired";    // hired, available, unavailable
 ?>

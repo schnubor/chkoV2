@@ -302,6 +302,9 @@ footer small {
 .mt60 {
   margin-top: 60px;
 }
+.form-control:focus {
+  border-color: #da432b;
+}
 .text h1 {
   font-size: 2rem;
   margin: 90px 0 40px;
@@ -332,6 +335,7 @@ footer small {
   margin-top: 40px;
   color: #9e9e9e;
   border: 1px solid #9e9e9e;
+  background-color: transparent;
   transition: .2s all;
   font-family: 'Droid Sans Mono', Helvetica, sans-serif;
 }

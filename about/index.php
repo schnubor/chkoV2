@@ -8,7 +8,7 @@ $currentPage = "About";
 <!DOCTYPE html>
 <html>
     <?php renderHead(
-        "Christian Korndoerfer | Web Development | About",
+        "Christian Korndoerfer | Web Developer | About",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
         His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>

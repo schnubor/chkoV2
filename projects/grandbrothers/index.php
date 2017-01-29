@@ -8,7 +8,7 @@ $currentPage = "Projects";
 <!DOCTYPE html>
 <html lang="en">
 <?php renderHead(
-        "Christian Korndoerfer | Web Development | Grandbrothers",
+        "Christian Korndoerfer | Web Developer | Grandbrothers",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
         His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>
@@ -50,6 +50,8 @@ $currentPage = "Projects";
                 </p>
             </div>
         </div>
+
+        <a href="/projects" class="btn">&#8592; Back to overview</a>
     </div>
 
     <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>

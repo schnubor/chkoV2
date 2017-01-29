@@ -47,4 +47,57 @@
         echo "\t</ul>";
         echo "</div>";
     }
+
+    function renderStatusIcon($status)
+    {
+        $statusColor = '';
+        $statusText = '';
+
+        switch ($status) {
+            case 'available':
+                $statusColor = 'green';
+                $statusText = 'available for hire';
+                break;
+
+            case 'unavailable':
+                $statusColor = 'red';
+                $statusText = 'booked to the teeth';
+                break;
+
+            case 'hired':
+                $statusColor = 'yellow';
+                $statusText = 'available for small projects';
+                break;
+
+            default:
+                break;
+        }
+
+        echo "<span class=\"status " . $statusColor . "\"
+              data-toggle=\"tooltip\"
+              data-placement=\"right\"
+              title=\"" . $statusText . "\">";
+        echo "</span>";
+    }
+
+    function renderStatusText($status)
+    {
+        switch ($status) {
+            case 'available':
+                $statusText = 'available for hire';
+                break;
+
+            case 'unavailable':
+                $statusText = 'booked to the teeth';
+                break;
+
+            case 'hired':
+                $statusText = 'available for small projects';
+                break;
+
+            default:
+                break;
+        }
+        echo $statusText;
+    }
 ?>

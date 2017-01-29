@@ -8,7 +8,7 @@ $currentPage = "Legal";
 <!DOCTYPE html>
 <html>
     <?php renderHead(
-        "Christian Korndoerfer | Web Development | Legal notice",
+        "Christian Korndoerfer | Web Developer | Legal notice",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
         His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>

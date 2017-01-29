@@ -4,11 +4,7 @@
             <a href="/">
                 <h1>
                     Christian Korndörfer
-                    <span class="status yellow"
-                          data-toggle="tooltip"
-                          data-placement="right"
-                          title="available for small projects">
-                    </span>
+                    <?php renderStatusIcon($status); ?>
                 </h1>
             </a>
             <p class="lead">

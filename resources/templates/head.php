@@ -14,3 +14,4 @@
     <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/assets/js/typed.min.js"></script>
     <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>

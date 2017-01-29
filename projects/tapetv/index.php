@@ -8,7 +8,7 @@ $currentPage = "Projects";
 <!DOCTYPE html>
 <html lang="en">
 <?php renderHead(
-        "Christian Korndoerfer | Web Development | tape.tv",
+        "Christian Korndoerfer | Web Developer | tape.tv",
         "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
         His work ranges from designing user interfaces to implementing APIs and server infrastructure."
     ); ?>
@@ -44,8 +44,8 @@ $currentPage = "Projects";
             <div class="col-md-10 offset-md-1">
                 <p>
                     In a guerilla action in early 2013 two other colleagues and
-                    me decided to finally create a sufficient mobile version of
-                    the site on our own, which should include the whole catalogue
+                    me decided to finally <strong>create a sufficient mobile version of
+                    the site</strong> on our own, which should include the whole catalogue
                     of videos, search, filtering and basic navigation.
                     My role was designing the whole thing from scratch and implementing
                     certain frontend related parts of the app.
@@ -66,8 +66,8 @@ $currentPage = "Projects";
                     in 2013. We decided to rebuild the whole product from scratch and
                     I worked as a frontend developer and designer together with the former
                     Amen Team and their founders Florian Weber (CTO) and Felix Petersen (CEO of Amen).
-                    During that time my skills in Ruby on Rails, backbone.js,
-                    test driven development and overall UX/UI design improved rapidly and I
+                    During that time my skills in <strong>Ruby on Rails, Backbone.js,
+                    test driven development (TDD) and overall UX/UI design</strong> improved rapidly and I
                     learned alot thanks to a great, experienced team.
                     <br/><br/>
                     Besides all that I also did some motion works including the opening sequence
