@@ -26,8 +26,8 @@ $currentPage = "About";
                     <div class="col-md-6">
                         <address>
                             <strong>CHKO.org</strong><br>
-                            Friedrich-Engels-Str. 3<br>
-                            13156, Berlin<br>
+                            Friedenstr. 92a<br>
+                            10249, Berlin<br>
                             <a href="mailto:info@chko.org">info@chko.org</a>
                         </address>
                         <a href="/downloads/CV.pdf" class="btn" title="Download CV">

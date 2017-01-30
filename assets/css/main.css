@@ -311,6 +311,14 @@ footer small {
   color: #202020;
   font-family: 'Rubik', Helvetica, sans-serif;
 }
+.text blockquote {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.text blockquote footer {
+  margin-top: 5px;
+}
 .text h3 {
   font-size: 24px;
   font-weight: bold;
