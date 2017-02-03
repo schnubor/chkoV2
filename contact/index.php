@@ -23,8 +23,7 @@ $currentPage = "Contact";
                     <p>
                         Feel free to use the following form to get in touch with
                         me for any questions and/or job inquieries. You can also
-                        email me directly: <a href="mailto:info@chko.org" title="compose email">
-                        info(at)chko.org</a><br>
+                        email me directly: info[at]chko.org<br>
                         I'll answer asap and depending on my current status.</p>
                     <p>
                         <strong>Current status: </strong>
@@ -44,8 +43,9 @@ $currentPage = "Contact";
                         <button
                             class="g-recaptcha btn"
                             data-sitekey="6LdalxMUAAAAALgaw2Z4m_esFFvKYlXWTfrWsuUy"
-                            data-callback="YourOnSubmitFn">
-                            Send message
+                            data-callback="YourOnSubmitFn"
+                            data-badge="inline">
+                            <i class="fa fa-send"></i> Send message
                         </button>
                     </form>
                 </div>

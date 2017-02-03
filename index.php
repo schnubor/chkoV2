@@ -17,10 +17,13 @@ $currentPage = "Home";
                 Working and living in Berlin as a full-stack web developer
                 I design, build and ship web applications since 2008. <br>
                 I enjoy helping enthusiastic people bringing their ideas to life,
-                while keeping them clean, robust and scaleable.
+                while keeping them clean, robust and maintainable.
             </p>
-            <a class="codeLink" href="/about">getAbout();</a>
-            <a class="codeLink" href="/about">getCV();</a>
+
+            <div class="text" style="margin-top: -40px;">
+                <a class="btn" href="/about"><i class="fa fa-question"></i> About</a>
+                <a class="btn" href="/about"><i class="fa fa-file-pdf-o"></i> CV</a>
+            </div>
 
             <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
