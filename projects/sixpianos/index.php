@@ -36,7 +36,7 @@ $currentPage = "Projects";
                 <p>
                     The <a href="http://film-recordings.com/sixpianos" title="official website of six pianos" target="_blank">official website</a> for an LP of Steve Reich's reworked piece "Six Pianos" from 1974,
                     released by <a href="http://film-recordings.com" title="FILM recordings" target="_blank">FILM Recordings</a> in Berlin.
-                    It also includes Terry Reiley's "Keyboard Study #1" which fits in very nicely. <br>
+                    It also includes Terry Reiley's "Keyboard Study #1" which fits in very nicely. <br><br>
                     You can listen to the whole LP and even enable or disable certain layers of Six Pianos by clicking on the pianists name or by finding the right
                     "track" in the album cover. It's a playful approach of discovering complexity behind the piece.
                 </p>
