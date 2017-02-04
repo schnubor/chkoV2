@@ -21,8 +21,8 @@ $currentPage = "Home";
             </p>
 
             <div class="text" style="margin-top: -40px;">
-                <a class="btn" href="/about"><i class="fa fa-question"></i> About</a>
-                <a class="btn" href="/about"><i class="fa fa-file-pdf-o"></i> CV</a>
+                <a class="btn" href="/about"><i class="fa fa-info"></i> About</a>
+                <a class="btn" href="/about"><i class="fa fa-file-pdf-o"></i> Download CV</a>
             </div>
 
             <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>

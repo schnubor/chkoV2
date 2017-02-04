@@ -45,7 +45,7 @@ $currentPage = "Contact";
                             data-sitekey="6LdalxMUAAAAALgaw2Z4m_esFFvKYlXWTfrWsuUy"
                             data-callback="YourOnSubmitFn"
                             data-badge="inline">
-                            <i class="fa fa-send"></i> Send message
+                            <i class="fa fa-send" aria-hidden="true"></i> Send message
                         </button>
                     </form>
                 </div>

@@ -31,10 +31,10 @@ $currentPage = "About";
                             info[at]chko.org
                         </address>
                         <a href="/downloads/CV.pdf" class="btn" title="Download CV">
-                            <i class="fa fa-fw fa-download"></i> Download CV
+                            <i class="fa fa-fw fa-download" aria-hidden="true"></i> Download CV
                         </a>
                         <a href="https://github.com/schnubor" class="btn" title="Github account">
-                            <i class="fa fa-fw fa-github"></i> Github
+                            <i class="fa fa-fw fa-github" aria-hidden="true"></i> Github
                         </a>
 
                     </div>
