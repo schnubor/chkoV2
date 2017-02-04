@@ -61,7 +61,9 @@
             "Vue.js fanboy",
             "Open source defender",
             "Burger lover 🍔 ",
-            "HTML/CSS/JS coach"
+            "HTML/CSS/JS coach",
+            "Head of Shoulders",
+            "Technical SEO dude"
         ],
         typeSpeed: 60,
         loop: true,

@@ -34,11 +34,11 @@ $currentPage = "Contact";
                 <div class="col-md-5 text">
                     <form class="form" action="<?php LIBRARY_PATH . "/sendMail.php" ?>" id="contactForm">
                         <div class="form-group">
-                            <input class="form-control" type="text" name="email" placeholder="Your email">
+                            <input class="form-control" type="text" name="email" placeholder="Your email" required>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" rows="8" cols="80"
-                            placeholder="Your message" style="resize: none;"></textarea>
+                            placeholder="Your message" style="resize: none;" required></textarea>
                         </div>
                         <button
                             class="g-recaptcha btn"
