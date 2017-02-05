@@ -1,3 +1,4 @@
+<?php include_once(LIBRARY_PATH . '/analyticstracking.php'); ?>
 <div class="jumbotron">
     <div class="container">
         <div class="logo">
