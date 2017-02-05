@@ -9,8 +9,8 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Grandbrothers",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "Grandbrothersmusic.com is the official homepage of a band from Düsseldorf / Germany – Erol Sarp and Lukas Vogel, signed on FILM Recordings.",
+        "/assets/images/projects/grandbrothers/grandbrothers1.jpg"
     ); ?>
 
 <body>
@@ -23,7 +23,8 @@ $currentPage = "Projects";
             <div class="col-md-10 offset-md-1">
                 <p>
                     <a href="http://grandbrothersmusic.com" target="_blank">Grandbrothersmusic.com</a>
-                    is the official homepage of a band from Düsseldorf / Germany – <br>Erol Sarp and Lukas Vogel.
+                    is the official homepage of a band from Düsseldorf / Germany – <br>Erol Sarp and Lukas Vogel,
+                    signed on <a href="http://film-recordings.com" title="FILM recordings" target="_blank">FILM Recordings</a>.
                     <br/><br/>
                     In order to achieve their special sound Lukas developed an unusual system for playing
                     the piano. Drawing on his technical background, he created a series of electromechanical

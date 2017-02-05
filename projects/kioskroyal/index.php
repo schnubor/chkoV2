@@ -9,8 +9,7 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Kiosk Royal",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure.",
+        "Kios-Royal.com is the personal online portfolio of Carsten Aermes and Hanna Zeckau.",
         "/assets/images/projects/kioskroyal/kioskroyal2.jpg"
     ); ?>
 

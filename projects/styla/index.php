@@ -9,8 +9,8 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | styla.com",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "After working for tape.tv I decided to stay in the glooming Berlin Startup world and joined a small company which would later be called Styla.",
+        "/assets/images/projects/styla/styla1.jpg"
     ); ?>
 
 <body>

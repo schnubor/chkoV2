@@ -9,8 +9,8 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Steve Reich – Sixp Pianos",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure.",
+        "The official website for an LP of Steve Reich's reworked piece \"Six Pianos\" from 1974,
+        released by FILM Recordings in Berlin.",
         "/assets/images/projects/sixpianos/sixpianos1.jpg"
     ); ?>
 

@@ -9,8 +9,9 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | For The Record",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "During my study in Leipzig and as a part of my masters thesis I started
+        working on a new platform for vinyl collectors using Open Data as a basis.",
+        "/assets/images/projects/fortherecord/fortherecord1.jpg"
     ); ?>
 
 <body>

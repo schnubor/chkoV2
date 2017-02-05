@@ -9,8 +9,10 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | tape.tv",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "When I started working at tape.tv in 2012, tape 2.5 was just
+        released and the whole application was still based on Flash
+        and did not...",
+        "/assets/images/projects/tapetv/tapetv1.jpg"
     ); ?>
 
 <body>

@@ -9,8 +9,7 @@ $currentPage = "Projects";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | Projects",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "Web development projects as well as my work for Berlin based Start-ups."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>

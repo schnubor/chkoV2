@@ -9,8 +9,7 @@ $currentPage = "Contact";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | Contact",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "Get in touch with Christian Korndoerfer, a full-stack web engineer living and working in Berlin."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
