@@ -46,7 +46,7 @@
             "Full-time employment. 2014 – now",
             "/projects/styla",
             false,
-            ['Backbone.js', 'React.js', 'Node.js', 'AWS'] ) ?>
+            ['Backbone.js', 'React.js', 'Node.js', 'SEO', 'AWS'] ) ?>
 
         <?php renderProjectTile(
             "/assets/images/projects/tapetv/tapetv1.jpg",

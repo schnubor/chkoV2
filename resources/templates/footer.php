@@ -26,22 +26,22 @@
             <a href="https://web.facebook.com/chko.org"
                title="Facebook page"
                target="_blank">
-                <i class="fa fa-fw fa-facebook"></i>
+                <i class="fa fa-fw fa-facebook aria-hidden="true""></i>
             </a>
             <a href="http://twitter.com/schnubor"
                title="Twitter feed"
                target="_blank">
-                <i class="fa fa-fw fa-twitter"></i>
+                <i class="fa fa-fw fa-twitter aria-hidden="true""></i>
             </a>
             <a href="https://de.linkedin.com/in/christian-korndörfer-8802045b"
                title="LinkedIn profile"
                target="_blank">
-                <i class="fa fa-fw fa-linkedin"></i>
+                <i class="fa fa-fw fa-linkedin aria-hidden="true""></i>
             </a>
             <a href="http://github.com/schnubor"
                title="Github account"
                target="_blank">
-               <i class="fa fa-fw fa-github"></i>
+               <i class="fa fa-fw fa-github aria-hidden="true""></i>
             </a>
         </p>
         <small class="pull-right">
