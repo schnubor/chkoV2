@@ -18,7 +18,7 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
     <div class="container singleProject text">
-        <h1>tape.tv</h1>
+        <h1>styla.com</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
@@ -55,18 +55,8 @@ $currentPage = "Projects";
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    Everything changed when <a href="http://techcrunch.com/2013/08/27/berlins-startups-consolidate-as-the-much-hyped-amen-is-acquired-by-tape-tv/" target="_blank">tape.tv acquired Amen</a>
-                    in 2013. We decided to rebuild the whole product from scratch and
-                    I worked as a frontend developer and designer together with the former
-                    Amen Team and their founders Florian Weber (CTO) and Felix Petersen (CEO of Amen).
-                    During that time my skills in <strong>Ruby on Rails, Backbone.js,
-                    test driven development (TDD) and overall UX/UI design</strong> improved rapidly and I
-                    learned alot thanks to a great, experienced team.
-                    <br/><br/>
-                    Besides all that I also did some motion works including the opening sequence
-                    of the Vodafone sponsored show <a href="https://vimeo.com/35758324" title="The Night Start Here Intro Video" target="_blank">The Night Starts Here</a>.
-                    <br><br>
-                    tape.tv had a good run, but went out of business in november 2016.
+                    Since being a SaaS there is always work for spicific clients involved.
+                    One of them not only wanted
                 </p>
             </div>
         </div>

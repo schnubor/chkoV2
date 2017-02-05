@@ -16,7 +16,7 @@ $currentPage = "Legal";
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
-        <div id="about" class="container text">
+        <div id="legal" class="container text">
             <h1>Legal information</h1>
 
             <div class="row">
@@ -31,8 +31,8 @@ $currentPage = "Legal";
                     </p>
                     <h3>Contact Information</h3>
                     <p>
-                        Telephone: 0160 96417889<br />
-                        E-Mail: info@chko.org<br />
+                        Telephone: +49 (0) 160 96417889<br />
+                        E-Mail: info[at]chko.org<br />
                         Internet address: www.chko.org
                     </p>
                     <h3>Disclaimer</h3>
