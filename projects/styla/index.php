@@ -55,11 +55,33 @@ $currentPage = "Projects";
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    Since being a SaaS there is always work for spicific clients involved.
-                    One of them not only wanted
+                    Since being a SaaS there is always work for specific clients involved.
+                    I ended building an entire websites from scratch for
+                    <a href="http://stories.ludwigbeck.com" title="Ludwigbeck homepage" target="_blank">Ludwigbeck</a>,
+                    <a href="http://stylefix.boohoo.com" title="Boohoo stylefix homepage" target="_blank">Boohoo</a> and
+                    <a href="http://news.pkz.ch" title="PKZ homepage" target="_blank">PKZ</a>.
+                    They're built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a> a very flexible CMS based on PHP
+                    and hosted on <strong>AWS</strong>.
+                    I was responsible for the entire UI/UX design and the whole implemention for those 3 clients.
                 </p>
             </div>
         </div>
+
+        <div class="row images">
+            <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck homepage">
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <p>
+                    Today Styla employs over 60 employees in a proper office and is still growing. We greatly improved our infrastructure
+                    by splitting our service up in <strong>multiple microservices</strong>, mostly running on <strong>Node.js</strong> and <strong>React.js</strong>. Currently my job is to develop some of
+                    those microservices as a <strong>full-stack developer</strong>, improve our <strong>technical SEO</strong> capabilities and help clients implement our service.
+                    As everyone in the company I'm involved in developing a completely new layout engine for our magazine, using a <strong>machine learning</strong> approach.
+                </p>
+            </div>
+        </div>
+
 
         <a href="/projects" class="btn">&#8592; Back to overview</a>
     </div>

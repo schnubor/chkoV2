@@ -22,7 +22,7 @@
         echo "\t<meta property=\"og:title\" content=\"" . $title . "\">\n";
         echo "\t<meta property=\"og:image\" content=\"http://{$_SERVER['HTTP_HOST']}" . $ogimage . "\">\n";
         echo "\t<meta property=\"og:description\" content=\"" . $description . "\">\n";
-        echo "\t<meta property=\"og:site_name\" content=\"Dr. med. B. Schulze - Fachärztin für Urologie\">\n";
+        echo "\t<meta property=\"og:site_name\" content=\"Christian Korndoerfer | Web Developer\">\n";
         echo "</head>";
     }
 

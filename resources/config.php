@@ -13,6 +13,8 @@ defined("LESS_PATH")
 defined("ASSETS_PATH")
     or define("ASSETS_PATH", realpath(dirname(__FILE__) . '/../assets'));
 
+$useH1 = false;
+
 $pages = [
     "About" => "/about",
     "Projects" => "/projects",

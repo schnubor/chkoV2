@@ -56,10 +56,13 @@
 .jumbotron a {
   color: #F1F1F1;
 }
-.jumbotron a:hover {
+.jumbotron a:hover,
+.jumbotron a:focus,
+.jumbotron a:active {
   text-decoration: none;
 }
-.jumbotron h1 {
+.jumbotron h1,
+.jumbotron p.h1 {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 200;
@@ -275,6 +278,7 @@ footer nav .nav .nav-link {
   font-size: 12px;
   letter-spacing: 1px;
   padding: 2px 6px;
+  margin-bottom: 4px;
 }
 .singleProject .images img {
   width: 100%;
