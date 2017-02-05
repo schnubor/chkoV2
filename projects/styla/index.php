@@ -62,13 +62,15 @@ $currentPage = "Projects";
                     <a href="http://news.pkz.ch" title="PKZ homepage" target="_blank">PKZ</a>.
                     They're built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a> a very flexible CMS based on PHP
                     and hosted on <strong>AWS</strong>.
-                    I was responsible for the entire UI/UX design and the whole implemention for those 3 clients.
+                    I was responsible for the entire <strong>UI/UX design</strong> and the whole implemention for those 3 clients.
                 </p>
             </div>
         </div>
 
         <div class="row images">
             <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck homepage">
+            <img src="/assets/images/projects/styla/styla3.jpg" alt="Boohoo Stylefix homepage">
+            <img src="/assets/images/projects/styla/styla4.jpg" alt="PKZ homepage">
         </div>
 
         <div class="row">

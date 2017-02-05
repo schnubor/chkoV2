@@ -63,7 +63,7 @@
             "Burger lover 🍔 ",
             "HTML/CSS/JS coach",
             "Head of Shoulders",
-            "Technical SEO dude"
+            "Technical SEO engineer"
         ],
         typeSpeed: 60,
         loop: true,
