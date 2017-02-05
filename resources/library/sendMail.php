@@ -21,7 +21,7 @@
   }
 
   $email = $_POST["email"];
-  $nachricht = $_POST["nachricht"];
+  $nachricht = $_POST["message"];
 
   // Mail settings
   // $recipient = 'info@urologie-seseke.de';
@@ -32,7 +32,7 @@
   if ($result->success) { // check captcha
 	if(filter_var($email, FILTER_VALIDATE_EMAIL)){ // check email
 		$content = $nachricht;
-		mail($recipient, $subject, $content, $mailheader) or die();
+		mail($recipient, $subject, $content, $mailheader) or die('server');
 		echo "true";
 	}else{
 		echo "email";

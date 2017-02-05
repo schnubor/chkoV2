@@ -16,7 +16,7 @@ $currentPage = "Contact";
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
-        <div id="about" class="container text">
+        <div id="contact" class="container text">
             <h1>Contact</h1>
             <div class="row">
                 <div class="col-md-8">
@@ -24,7 +24,12 @@ $currentPage = "Contact";
                         Feel free to use the following form to get in touch with
                         me for any questions and/or job inquieries. You can also
                         email me directly: info[at]chko.org<br>
-                        I'll answer asap and depending on my current status.</p>
+                        I'll answer asap and depending on my current status.
+                    </p>
+                    <p>
+                        For professional inquiries please get in touch via
+                        <a href="https://de.linkedin.com/in/christian-korndörfer-8802045b" title="LinkedIn" target="_blank">LinkedIn</a>.
+                    </p>
                     <p>
                         <strong>Current status: </strong>
                         <?php renderStatusText($status); ?>
@@ -43,7 +48,7 @@ $currentPage = "Contact";
                         <button
                             class="g-recaptcha btn"
                             data-sitekey="6LdalxMUAAAAALgaw2Z4m_esFFvKYlXWTfrWsuUy"
-                            data-callback="YourOnSubmitFn"
+                            data-callback="sendMailCallback"
                             data-badge="inline">
                             <i class="fa fa-send" aria-hidden="true"></i> Send message
                         </button>
