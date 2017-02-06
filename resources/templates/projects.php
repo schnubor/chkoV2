@@ -30,9 +30,9 @@
 
         <?php renderProjectTile(
             "/assets/images/projects/fortherecord/fortherecord1.jpg",
-            "fortherecord.de",
+            "therecord.de",
             "Platform for vinyl collectors and part of my master thesis.",
-            "/projects/fortherecord",
+            "/projects/therecord",
             true,
             ['PHP', 'Laravel', 'REST', 'Vue.js', 'Digital Ocean'] ) ?>
     </div>
