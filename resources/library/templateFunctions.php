@@ -23,6 +23,7 @@
         echo "\t<meta property=\"og:image\" content=\"http://{$_SERVER['HTTP_HOST']}" . $ogimage . "\">\n";
         echo "\t<meta property=\"og:description\" content=\"" . $description . "\">\n";
         echo "\t<meta property=\"og:site_name\" content=\"Christian Korndoerfer | Web Developer\">\n";
+        echo "\t<meta property=\"fb:app_id\" content=\"738892419599660\">\n";
         echo "</head>";
     }
 
