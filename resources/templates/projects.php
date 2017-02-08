@@ -16,7 +16,7 @@
             "Design agency portfolio.",
             "/projects/kioskroyal",
             true,
-            ['PHP', 'Laravel', 'Digital Ocean'] ) ?>
+            ['PHP', 'Laravel', 'CMS', 'Digital Ocean'] ) ?>
     </div>
 
     <div class="row mt60">
@@ -26,7 +26,7 @@
             "Official website.",
             "/projects/grandbrothers",
             false,
-            ['PHP', 'Laravel', 'Forge', 'Digital Ocean'] ) ?>
+            ['PHP', 'Laravel', 'CMS', 'Digital Ocean'] ) ?>
 
         <?php renderProjectTile(
             "/assets/images/projects/fortherecord/fortherecord1.jpg",
