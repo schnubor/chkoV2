@@ -37,6 +37,16 @@
             ['PHP', 'Laravel', 'REST', 'Vue.js', 'Digital Ocean'] ) ?>
     </div>
 
+    <div class="row mt60">
+        <?php renderProjectTile(
+            "/assets/images/projects/mulligan/mulligan1.jpg",
+            "Mulligan",
+            "A Magic the Gathering catalog.",
+            "/projects/mulligan",
+            false,
+            ['Vue.js 2', 'ES6', 'REST'] ) ?>
+    </div>
+
     <h2>Employments</h2>
 
     <div class="row mt60">
