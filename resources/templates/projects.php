@@ -3,12 +3,12 @@
 
     <div class="row">
         <?php renderProjectTile(
-            "/assets/images/projects/sixpianos/sixpianos1.jpg",
-            "Steve Reich – Six Pianos",
-            "Official website.",
-            "/projects/sixpianos",
+            "/assets/images/projects/mulligan/mulligan1.jpg",
+            "Mulligan",
+            "A Magic the Gathering catalog.",
+            "/projects/mulligan",
             false,
-            ['HTML5/CSS3/JS', 'Managed hosting']) ?>
+            ['Vue.js 2', 'ES6', 'REST'] ) ?>
 
         <?php renderProjectTile(
             "/assets/images/projects/kioskroyal/kioskroyal1.jpg",
@@ -39,12 +39,12 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/mulligan/mulligan1.jpg",
-            "Mulligan",
-            "A Magic the Gathering catalog.",
-            "/projects/mulligan",
+            "/assets/images/projects/sixpianos/sixpianos1.jpg",
+            "Steve Reich – Six Pianos",
+            "Official website.",
+            "/projects/sixpianos",
             false,
-            ['Vue.js 2', 'ES6', 'REST'] ) ?>
+            ['HTML5/CSS3/JS', 'Managed hosting']) ?>
     </div>
 
     <h2>Employments</h2>
