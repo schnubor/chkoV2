@@ -8,7 +8,7 @@ $currentPage = "Projects";
 <!DOCTYPE html>
 <html lang="en">
 <?php renderHead(
-        "Christian Korndoerfer | Web Developer | Steve Reich – Sixp Pianos",
+        "Christian Korndoerfer | Web Developer | Steve Reich – Six Pianos",
         "The official website for an LP of Steve Reich's reworked piece \"Six Pianos\" from 1974,
         released by FILM Recordings in Berlin.",
         "/assets/images/projects/sixpianos/sixpianos1.jpg"

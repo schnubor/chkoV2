@@ -9,8 +9,7 @@ $currentPage = "Legal";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | Legal notice",
-        "Christian Korndoerfer is a full-stack web engineer living and working in Berlin.
-        His work ranges from designing user interfaces to implementing APIs and server infrastructure."
+        "Legal notice for chko.org."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
