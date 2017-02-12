@@ -22,7 +22,7 @@ $useH1 = true;
 
             <div class="text" style="margin-top: -40px;">
                 <a class="btn" href="/about" title="About"><i class="fa fa-info" aria-hidden="true"></i> About</a>
-                <a class="btn" href="https://github.com/schnubor" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Githubtom</a>
+                <a class="btn" href="https://github.com/schnubor" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 <a class="btn" href="/about/CV.pdf" title="CV"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a>
             </div>
 
