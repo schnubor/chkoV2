@@ -9,7 +9,7 @@ $currentPage = "Projects";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | Projects",
-        "Web development projects as well as my work for Berlin based Start-ups."
+        "Personal web development projects as well as my work for Berlin based companies."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
