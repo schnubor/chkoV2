@@ -31,7 +31,7 @@
 
   if ($result->success) { // check captcha
 	if(filter_var($email, FILTER_VALIDATE_EMAIL)){ // check email
-		$content = $nachricht;
+		$content = $nachricht . "\n\nEmail: " . $email;
 		mail($recipient, $subject, $content, $mailheader) or die('server');
 		echo "true";
 	}else{
