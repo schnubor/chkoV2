@@ -362,6 +362,10 @@ footer small {
   color: #202020;
   border: 1px solid #202020;
 }
+.text em {
+  background-color: rgba(165,165,165,0.2);
+  font-style: italic;
+}
 .text strong {
   font-weight: 500;
 }
