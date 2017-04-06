@@ -13,12 +13,12 @@
 
                         echo "<li class=\"nav-item\">";
                         echo "<a class=\"nav-link " . $active . "\" ";
-                        echo "href=\"" . $url . "\">" . $page . "</a>";
+                        echo "href=\"" . $url . "/\">" . $page . "</a>";
                         echo "</li>";
                     }
                 ?>
                 <li class="nav-item">
-                    <a href="/legal" class="nav-link" title="legal notice">Legal</a>
+                    <a href="/legal/" class="nav-link" title="legal notice">Legal</a>
                 </a>
             </ul>
         </nav>

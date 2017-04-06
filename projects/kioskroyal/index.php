@@ -46,7 +46,7 @@ $currentPage = "Projects";
             </div>
         </div>
 
-        <a href="/projects" class="btn">&#8592; Back to overview</a>
+        <?php renderBackButton(); ?>
     </div>
 
     <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>

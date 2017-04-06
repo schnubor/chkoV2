@@ -9,7 +9,7 @@ $currentPage = "About";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | About",
-        "More information about Christian Korndoerfer | Full-stack web developer | Berlin"
+        "More information about Christian Korndoerfer regarding education, job experiences and CV."
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
@@ -45,7 +45,7 @@ $currentPage = "About";
                         Hi there, I'm Christian and I'm working as a web developer and visual/product
                         designer for <a href="https://styla.com/" title="Styla homepage" target="_blank">styla.com</a> in Berlin.
                         Before Styla I worked for the online music television service
-                        <a href="/projects/tapetv" title="tape.tv">tape.tv</a> until the end of 2014.
+                        <a href="/projects/tapetv/" title="tape.tv">tape.tv</a> until the end of 2014.
                     </p>
                     <p>
                         I studied Information Technology at <a href="https://www.fh-zwickau.de/" title="FH Zwickau" target="_blank">FH Zwickau</a>, Germany, <strong>graduated as an
@@ -67,8 +67,8 @@ $currentPage = "About";
                     </p>
                     <p>
                         For more information feel free to check out my
-                        <a href="/projects" title="Projects">Projects</a>
-                        and <a href="/contact" title="Contact form">get in touch</a> if you've any further questions or inquiries.
+                        <a href="/projects/" title="Projects">Projects</a>
+                        and <a href="/contact/" title="Contact form">get in touch</a> if you've any further questions or inquiries.
                     </p>
                 </div>
             </div>

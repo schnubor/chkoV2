@@ -24,6 +24,14 @@
         echo "\t<meta property=\"og:description\" content=\"" . $description . "\">\n";
         echo "\t<meta property=\"og:site_name\" content=\"Christian Korndoerfer | Web Developer\">\n";
         echo "\t<meta property=\"fb:app_id\" content=\"738892419599660\">\n";
+        echo "<script type=\"application/ld+json\">\n";
+		echo "{\n";
+		echo "\"@context\" : \"http://schema.org\",\n";
+		echo "\"@type\" : \"WebSite\",\n";
+		echo "\"name\" : \"" . $title . "\",\n";
+		echo "\"url\" : \"https://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}\"\n";
+  		echo "}\n";
+  		echo "</script>\n";
         echo "</head>";
     }
 
@@ -100,5 +108,10 @@
                 break;
         }
         echo $statusText;
+    }
+    
+    function renderBackButton()
+    {
+	    echo '<a href="/projects/" class="btn">&#8592; Back to overview</a>';
     }
 ?>

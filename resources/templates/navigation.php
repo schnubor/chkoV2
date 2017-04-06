@@ -10,7 +10,7 @@
 
                 echo "<li class=\"nav-item\">";
                 echo "<a class=\"nav-link " . $active . "\" ";
-                echo "href=\"" . $url . "\">" . $page . "</a>";
+                echo "href=\"" . $url . "/\">" . $page . "</a>";
                 echo "</li>";
             }
         ?>

@@ -8,7 +8,7 @@ $useH1 = true;
 
 <!DOCTYPE html>
 <html>
-    <?php renderHead("Christian Korndörfer | Web Developer", "Christian Korndoerfer | Full-stack web developer | Berlin"); ?>
+    <?php renderHead("Christian Korndoerfer | Full-stack web developer | Berlin", "Christian Korndoerfer is a Full-stack Web Developer with a strong design and engineering background, living and working in Berlin."); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
 
@@ -21,11 +21,15 @@ $useH1 = true;
             </p>
 
             <div class="text" style="margin-top: -40px;">
-                <a class="btn" href="/about" title="About"><i class="fa fa-info" aria-hidden="true"></i> About</a>
+                <a class="btn" href="/about/" title="About"><i class="fa fa-info" aria-hidden="true"></i> About</a>
                 <a class="btn" href="https://github.com/schnubor" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 <a class="btn" href="/about/CV.pdf" title="CV"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a>
             </div>
-
+            
+            <div class="projects">
+				<h2>Projects</h2>
+			</div>
+			
             <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 

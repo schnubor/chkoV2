@@ -309,6 +309,12 @@ footer small {
 .form-control:focus {
   border-color: #da432b;
 }
+.h1 h1 {
+  font-size: 2rem;
+  margin: 90px 0 40px;
+  color: #202020;
+  font-family: 'Rubik', Helvetica, sans-serif;
+}
 .text {
   letter-spacing: 1px;
 }

@@ -22,7 +22,7 @@ $currentPage = "Projects";
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    After working for <a href="/projects/tapetv" title="my work for tape.tv">tape.tv</a>
+                    After working for <a href="/projects/tapetv/" title="my work for tape.tv">tape.tv</a>
                     I decided to stay in the glooming Berlin Startup world and joined
                     a small company which would later be called Styla - settings sails to conquer
                     the online magazine and content commerce market on an international scope as a SaaS.
@@ -85,7 +85,7 @@ $currentPage = "Projects";
         </div>
 
 
-        <a href="/projects" class="btn">&#8592; Back to overview</a>
+        <?php renderBackButton(); ?>
     </div>
 
     <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>
