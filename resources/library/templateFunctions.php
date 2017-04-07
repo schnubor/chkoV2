@@ -1,7 +1,7 @@
 <?php
     require_once(realpath(dirname(__FILE__) . "/../config.php"));
 
-    function renderHead($title, $description, $ogimage = "/assets/images/fb.jpg")
+    function renderHead($title, $description, $ogimage = "/assets/images/fb.jpg", $noindex = false)
     {
         // Compile .less files
         require_once(LIBRARY_PATH . '/lessc.inc.php');
@@ -14,6 +14,12 @@
         // Add meta information
         require_once(TEMPLATES_PATH . '/head.php');
 
+		if($noindex) {
+			echo "\t<meta name=\"robots\" content=\"noindex,nofollow\">\n";
+		}
+		else {
+			echo "\t<meta name=\"robots\" content=\"index,follow,noodp\">\n";
+		}
         echo "\t<title>" . $title . "</title>\n";
         echo "\t<meta name=\"description\" content=\"" . $description . "\">\n";
         echo "\t<link rel=\"canonical\" href=\"https://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}\">\n";

@@ -8,7 +8,7 @@ $useH1 = true;
 
 <!DOCTYPE html>
 <html>
-    <?php renderHead("Christian Korndoerfer | Full-stack web developer | Berlin", "Christian Korndoerfer is a Full-stack Web Developer with a strong design and engineering background, living and working in Berlin."); ?>
+    <?php renderHead("Christian Korndoerfer | Full-stack web developer & designer", "Christian Korndoerfer is a Full-stack Web Developer with a strong design and engineering background, living and working in Berlin."); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
 

@@ -2,8 +2,6 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
     <meta name="google-site-verification" content="zvpOBtos1AdLWSZiwfJpTmF5ejnUgbEeF8Lg8AL1TD0" />
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
