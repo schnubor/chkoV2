@@ -15,7 +15,7 @@
         require_once(TEMPLATES_PATH . '/head.php');
 
 		if($noindex) {
-			echo "\t<meta name=\"robots\" content=\"noindex,nofollow\">\n";
+			echo "\t<meta name=\"robots\" content=\"noindex,follow\">\n";
 		}
 		else {
 			echo "\t<meta name=\"robots\" content=\"index,follow,noodp\">\n";
