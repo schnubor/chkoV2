@@ -43,7 +43,7 @@ $currentPage = "About";
                 <div class="col-md-9 offset-md-1">
                     <p>
                         Hi there, I'm Christian and I'm working as a web developer and visual/product
-                        designer for <a href="https://styla.com/" title="Styla homepage" target="_blank">styla.com</a> in Berlin.
+                        designer for <a href="/projects/styla/" title="Styla" target="_blank">styla.com</a> in Berlin.
                         Before Styla I worked for the online music television service
                         <a href="/projects/tapetv/" title="tape.tv">tape.tv</a> until the end of 2014.
                     </p>

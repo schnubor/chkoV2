@@ -46,8 +46,8 @@ $currentPage = "Projects";
                     The platform aggregates and visualizes data from various APIs, like Discogs, Spotify, iTunes or Youtube.
                     By combining datasets from different sources throughout the web, new and more valuable data can be created.
                     This well-orchestrated data is then made public as <strong>Open Data</strong> again by using an open API.<br><br>
-                    The whole project is Open Source and realized with the <strong>MVC</strong> based PHP framework <a href="http://laravel.com" title="Laravel" target="_blank">Laravel</a> in combination with <strong>Vue.js</strong> for some frontend components 
-                    and hosted with <a href="http://forge.laravel.com" title="Laravel Forge" target="_blank">Laravel Forge</a> on Digital Ocean.
+                    The whole project is Open Source and realized with the <strong>MVC</strong> based PHP framework <a href="https://laravel.com/" title="Laravel" target="_blank">Laravel</a> in combination with <strong>Vue.js</strong> for some frontend components 
+                    and hosted with <a href="https://forge.laravel.com/" title="Laravel Forge" target="_blank">Laravel Forge</a> on Digital Ocean.
                     You can check out the code on <a href="https://github.com/schnubor/therecord" title="Fortherecord on Github" target="_blank">Github</a>.
                 </p>
             </div>

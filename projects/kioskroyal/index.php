@@ -41,7 +41,7 @@ $currentPage = "Projects";
             <div class="col-md-10 offset-md-1">
                 <p>
                     The site was build from scratch with Laravel 5.1 and is hosted with Forge.
-                    You can check out the code on <a href="https://github.com/schnubor/kiosk-royal" title="Fortherecord on Github" target="_blank">Github</a>.
+                    You can check out the code on <a href="https://github.com/schnubor/kiosk-royal" title="Kiosk-Royal on Github" target="_blank">Github</a>.
                 </p>
             </div>
         </div>

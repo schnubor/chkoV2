@@ -23,12 +23,12 @@
             </ul>
         </nav>
         <p class="pull-left">
-            <a href="https://web.facebook.com/chko.org"
+            <a href="https://www.facebook.com/chko.org"
                title="Facebook page"
                target="_blank">
                 <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="http://twitter.com/schnubor"
+            <a href="https://twitter.com/schnubor"
                title="Twitter feed"
                target="_blank">
                 <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
@@ -38,7 +38,7 @@
                target="_blank">
                 <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="http://github.com/schnubor"
+            <a href="https://github.com/schnubor"
                title="Github account"
                target="_blank">
                <i class="fa fa-fw fa-github" aria-hidden="true"></i>

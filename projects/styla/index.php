@@ -24,7 +24,7 @@ $currentPage = "Projects";
                 <p>
                     After working for <a href="/projects/tapetv/" title="my work for tape.tv">tape.tv</a>
                     I decided to stay in the glooming Berlin Startup world and joined
-                    a small company which would later be called Styla - settings sails to conquer
+                    a small company which would later be called <a href="https://www.styla.com/" target="_blank" title="Styla - Storytelling sales">Styla</a> - settings sails to conquer
                     the online magazine and content commerce market on an international scope as a SaaS.
                 </p>
             </div>
@@ -57,8 +57,8 @@ $currentPage = "Projects";
                 <p>
                     Since being a SaaS there is always work for specific clients involved.
                     I ended building an entire websites from scratch for
-                    <a href="http://stories.ludwigbeck.com" title="Ludwigbeck homepage" target="_blank">Ludwigbeck</a>,
-                    <a href="http://stylefix.boohoo.com" title="Boohoo stylefix homepage" target="_blank">Boohoo</a> and
+                    <a href="http://stories.ludwigbeck.de" title="Ludwigbeck Magazine" target="_blank">Ludwigbeck</a>,
+                    <a href="http://stylefix.boohoo.com" title="Boohoo Stylefix Magazine" target="_blank">Boohoo</a> and
                     <a href="http://news.pkz.ch" title="PKZ homepage" target="_blank">PKZ</a>.
                     They're built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a> a very flexible CMS based on PHP
                     and hosted on <strong>AWS</strong>.
@@ -68,9 +68,9 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck homepage">
-            <img src="/assets/images/projects/styla/styla3.jpg" alt="Boohoo Stylefix homepage">
-            <img src="/assets/images/projects/styla/styla4.jpg" alt="PKZ homepage">
+            <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck Magazine">
+            <img src="/assets/images/projects/styla/styla3.jpg" alt="Boohoo Stylefix Magazine">
+            <img src="/assets/images/projects/styla/styla4.jpg" alt="PKZ Magazine">
         </div>
 
         <div class="row">

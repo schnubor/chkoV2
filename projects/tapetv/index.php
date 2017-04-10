@@ -64,7 +64,7 @@ $currentPage = "Projects";
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    Everything changed when <a href="http://techcrunch.com/2013/08/27/berlins-startups-consolidate-as-the-much-hyped-amen-is-acquired-by-tape-tv/" target="_blank">tape.tv acquired Amen</a>
+                    Everything changed when <a href="https://techcrunch.com/2013/08/27/berlins-startups-consolidate-as-the-much-hyped-amen-is-acquired-by-tape-tv/" target="_blank">tape.tv acquired Amen</a>
                     in 2013. We decided to rebuild the whole product from scratch and
                     I worked as a frontend developer and designer together with the former
                     Amen Team and their founders Florian Weber (CTO) and Felix Petersen (CEO of Amen).
