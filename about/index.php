@@ -62,8 +62,7 @@ $currentPage = "About";
                         Naturally, as an engineer I'm eager for learning new things, figuring out how stuff works and solving problems.
                         I enjoy working on challenging projects with others and value good thoughts and ideas. <br>
                         I believe that truely great apps can emerge, when knowledge meets skill,
-                        passion and an idea everyone believes in. <strong>Those apps are often defined by performance, robustness,
-                        scaleability, code quality and swift deployment cycles.</strong>
+                        passion and an idea everyone believes in. Those apps are often defined by performance, 						robustness, scaleability, good code quality, swift deployment cycles and well thought-out UI aesthetics. <strong>As an engineer and designer I'm able combine the best of both worlds.</strong>
                     </p>
                     <p>
                         For more information feel free to check out my

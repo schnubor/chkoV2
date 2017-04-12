@@ -13,8 +13,9 @@ $useH1 = true;
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
 
         <div id="home" class="container">
+            
+            <h1>Full-stack web developer and UI designer from Berlin.</h1> <br>
             <p class="lead intro">
-                Full-stack web developer working and living in Berlin. <br>
                 I design, build and ship web applications since 2008 and
                 enjoy helping enthusiastic people bringing their ideas to life,
                 while keeping them clean, robust and maintainable.
