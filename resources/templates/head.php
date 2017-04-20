@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="/assets/images/favicon.ico">
-    <script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/tether.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/js/typed.min.js"></script>
-    <script type="text/javascript" src="/assets/js/main.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js" async></script>
+    <script type="text/javascript" src="/assets/js/tether.min.js" async></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js" async></script>
+    <script type="text/javascript" src="/assets/js/typed.min.js" async></script>
+    <script type="text/javascript" src="/assets/js/main.js" async></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async></script>

@@ -263,11 +263,13 @@ footer nav .nav .nav-link {
   letter-spacing: 1px;
   font-weight: 200;
   font-size: 12px;
+  margin-bottom: 0;
 }
 .projects ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 2.5rem;
 }
 .projects ul li {
   font-family: 'Droid Sans Mono', Helvetica, sans-serif;
