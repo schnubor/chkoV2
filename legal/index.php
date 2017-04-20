@@ -9,7 +9,10 @@ $currentPage = "Legal";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | Legal notice",
-        "Legal notice for chko.org.", "/assets/images/fb.jpg", true
+        "Legal notice for chko.org.",
+        $currentPage,
+        "/assets/images/fb.jpg",
+        true
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>

@@ -11,6 +11,7 @@ $currentPage = "Projects";
         "Christian Korndoerfer | Web Developer | The Record",
         "During my study in Leipzig and as a part of my masters thesis I started
         working on a new platform for vinyl collectors using Open Data as a basis.",
+        $currentPage,
         "/assets/images/projects/fortherecord/fortherecord1.jpg"
     ); ?>
 

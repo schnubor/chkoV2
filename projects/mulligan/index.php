@@ -10,6 +10,7 @@ $currentPage = "Projects";
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Mulligan",
         "Mulligan is small single page application, written to quickly find and view Magic The Gathering cards.",
+        $currentPage,
         "/assets/images/projects/mulligan/mulligan1.jpg"
     ); ?>
 

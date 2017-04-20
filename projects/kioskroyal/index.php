@@ -10,6 +10,7 @@ $currentPage = "Projects";
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Kiosk Royal",
         "Kios-Royal.com is the personal online portfolio of Carsten Aermes and Hanna Zeckau.",
+        $currentPage,
         "/assets/images/projects/kioskroyal/kioskroyal2.jpg"
     ); ?>
 

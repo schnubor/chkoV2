@@ -9,7 +9,8 @@ $currentPage = "About";
 <html>
     <?php renderHead(
         "Christian Korndoerfer | Web Developer | About",
-        "More information about Christian Korndoerfer regarding education, job experiences and CV."
+        "More information about Christian Korndoerfer regarding education, job experiences and CV.",
+        $currentPage
     ); ?>
     <body>
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>

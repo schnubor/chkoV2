@@ -10,6 +10,7 @@ $currentPage = "Projects";
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | Grandbrothers",
         "Grandbrothersmusic.com is the official homepage of a band from Düsseldorf / Germany – Erol Sarp and Lukas Vogel, signed on FILM Recordings.",
+        $currentPage,
         "/assets/images/projects/grandbrothers/grandbrothers1.jpg"
     ); ?>
 

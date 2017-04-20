@@ -11,6 +11,7 @@ $currentPage = "Projects";
         "Christian Korndoerfer | Web Developer | Steve Reich – Six Pianos",
         "The official website for an LP of Steve Reich's reworked piece 'Six Pianos' from 1974,
         released by FILM Recordings in Berlin.",
+        $currentPage,
         "/assets/images/projects/sixpianos/sixpianos1.jpg"
     ); ?>
 

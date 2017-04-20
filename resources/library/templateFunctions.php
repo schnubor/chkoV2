@@ -1,7 +1,7 @@
 <?php
     require_once(realpath(dirname(__FILE__) . "/../config.php"));
 
-    function renderHead($title, $description, $ogimage = "/assets/images/fb.jpg", $noindex = false)
+    function renderHead($title, $description, $currentPage, $ogimage = "/assets/images/fb.jpg", $noindex = false)
     {
         // Compile .less files
         require_once(LIBRARY_PATH . '/lessc.inc.php');
@@ -10,6 +10,11 @@
             LESS_PATH . '/main.less',
             ASSETS_PATH . '/css/main.css'
         );
+
+		// Add recaptcha script for contact page
+		if($currentPage == "Contact") {
+		    echo "\t<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\" async></script>\n";
+		}
 
         // Add meta information
         require_once(TEMPLATES_PATH . '/head.php');

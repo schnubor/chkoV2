@@ -15,4 +15,3 @@
     <script type="text/javascript" src="/assets/js/bootstrap.min.js" async></script>
     <script type="text/javascript" src="/assets/js/typed.min.js" async></script>
     <script type="text/javascript" src="/assets/js/main.js" async></script>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async></script>

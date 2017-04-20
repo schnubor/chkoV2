@@ -9,9 +9,8 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | tape.tv",
-        "When I started working at tape.tv in 2012, tape 2.5 was just
-        released and the whole application was still based on Flash
-        and did not...",
+        "tape.tv was an Online Music Television Streamin Service and the first Berlin based company I worked for as a designer and developer.",
+        $currentPage,
         "/assets/images/projects/tapetv/tapetv1.jpg"
     ); ?>
 

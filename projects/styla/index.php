@@ -10,6 +10,7 @@ $currentPage = "Projects";
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | styla.com",
         "After working for tape.tv I decided to stay in the glooming Berlin Startup world and joined a small company which would later be called Styla.",
+        $currentPage,
         "/assets/images/projects/styla/styla1.jpg"
     ); ?>
 
