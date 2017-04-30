@@ -50,9 +50,11 @@ $currentPage = "About";
                     </p>
                     <p>
                         I studied Information Technology at <a href="https://www.fh-zwickau.de/" title="FH Zwickau" target="_blank">FH Zwickau</a>, Germany, <strong>graduated as an
-                        engineer in 2009</strong> and worked as a software developer/engineer afterwards.
-                        <strong>Besides motion design I was constantly looking into web related programming,
-                        UX and GUI design.</strong> I decided to move to Berlin in 2012 to dive deeper into this adventure. <br>
+                        engineer in 2009</strong> and worked as a software developer/engineer afterwards. <br>
+                        Besides <a href="https://vimeo.com/chko" target="_blank" title="Vimeo profile">motion design</a> I was constantly looking into <strong>web related programming,
+                        UX and GUI design</strong>.
+                        <br><br>
+                        I decided to move to Berlin in 2012 to dive deeper into this adventure. <br>
                         At the same time I started an additional study in Leipzig, Germany, at the
                         <a href="https://www.leipzigschoolofmedia.de/" title="Leipzig School of Media" target="_blank">Leipzig School of Media</a>
                         besides my job in order to improve my knowledge and get a bigger picture in general media,
@@ -62,7 +64,7 @@ $currentPage = "About";
                     <p>
                         Naturally, as an engineer I'm eager for learning new things, figuring out how stuff works and solving problems.
                         I enjoy working on challenging projects with others and value good thoughts and ideas. <br>
-                        I believe that truely great apps can emerge, when knowledge meets skill,
+                        I believe that truly great apps can emerge, when knowledge meets skill,
                         passion and an idea everyone believes in. Those apps are often defined by performance, 						robustness, scaleability, good code quality, swift deployment cycles and well thought-out UI aesthetics. <strong>As an engineer and designer I'm able combine the best of both worlds.</strong>
                     </p>
                     <p>

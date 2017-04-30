@@ -57,13 +57,13 @@ $currentPage = "Projects";
             <div class="col-md-10 offset-md-1">
                 <p>
                     Since being a SaaS there is always work for specific clients involved.
-                    I ended building an entire websites from scratch for
+                    I ended up building entire websites from scratch for clients like
                     <a href="http://stories.ludwigbeck.de" title="Ludwigbeck Magazine" target="_blank">Ludwigbeck</a>,
                     <a href="http://stylefix.boohoo.com" title="Boohoo Stylefix Magazine" target="_blank">Boohoo</a> and
                     <a href="http://news.pkz.ch" title="PKZ homepage" target="_blank">PKZ</a>.
-                    They're built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a> a very flexible CMS based on PHP
-                    and hosted on <strong>AWS</strong>.
-                    I was responsible for the entire <strong>UI/UX design</strong> and the whole implemention for those 3 clients.
+                    All of them are built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a>, a very flexible CMS based on PHP,
+                    and hosted via <strong>AWS</strong>.
+                    Additionally for Ludwigbeck I was also responsible for the entire <strong>UI/UX design</strong> and integration of their existing Brand and Events APIs.
                 </p>
             </div>
         </div>
@@ -78,9 +78,8 @@ $currentPage = "Projects";
             <div class="col-md-10 offset-md-1">
                 <p>
                     Today Styla employs over 60 employees in a proper office and is still growing. We greatly improved our infrastructure
-                    by splitting our service up in <strong>multiple microservices</strong>, mostly running on <strong>Node.js</strong> and <strong>React.js</strong>. Currently my job is to develop some of
-                    those microservices as a <strong>full-stack developer</strong>, improve our <strong>technical SEO</strong> capabilities and help clients implement our service.
-                    As everyone in the company I'm involved in developing a completely new layout engine for our magazine, using a <strong>machine learning</strong> approach.
+                    by splitting our service up in <strong>multiple Microservices</strong>, mostly running on <strong>Node.js</strong> and <strong>React.js</strong>. Currently my job is to develop, improve and maintain some of those Microservices as a <strong>full-stack developer</strong>, improve our <strong>technical SEO</strong> capabilities and help clients implement our service.
+                    As everyone in the company I'm involved in developing a completely new layout engine for our magazines, using a <strong>machine learning</strong> approach.
                 </p>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div class="projects">
     <div class="row">
         <?php renderProjectTile(
-            "/assets/images/projects/mulligan/mulligan1.jpg",
+            "/assets/images/projects/mulligan/mulligan1-small.jpg",
             "Mulligan",
             "A Magic the Gathering catalog.",
             "/projects/mulligan/",
@@ -9,7 +9,7 @@
             ['Vue.js 2', 'ES6', 'REST'] ) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/kioskroyal/kioskroyal1.jpg",
+            "/assets/images/projects/kioskroyal/kioskroyal1-small.jpg",
             "kiosk-royal.com",
             "Design agency portfolio.",
             "/projects/kioskroyal/",
@@ -19,7 +19,7 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/grandbrothers/grandbrothers1.jpg",
+            "/assets/images/projects/grandbrothers/grandbrothers1-small.jpg",
             "Grandbrothersmusic.com",
             "Official website.",
             "/projects/grandbrothers/",
@@ -27,7 +27,7 @@
             ['PHP', 'Laravel', 'CMS', 'Digital Ocean'] ) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/fortherecord/fortherecord1.jpg",
+            "/assets/images/projects/fortherecord/fortherecord1-small.jpg",
             "therecord.de",
             "Platform for vinyl collectors and part of my master thesis.",
             "/projects/therecord/",
@@ -37,7 +37,7 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/sixpianos/sixpianos1.jpg",
+            "/assets/images/projects/sixpianos/sixpianos1-small.jpg",
             "Steve Reich – Six Pianos",
             "Official website.",
             "/projects/sixpianos/",
@@ -49,7 +49,7 @@
 
     <div class="row mt60">
         <?php renderProjectTile(
-            "/assets/images/projects/styla/styla1.jpg",
+            "/assets/images/projects/styla/styla1-small.jpg",
             "styla.com",
             "Full-time employment. 2014 – now",
             "/projects/styla/",
@@ -57,7 +57,7 @@
             ['Backbone.js', 'React.js', 'Node.js', 'SEO', 'AWS'] ) ?>
 
         <?php renderProjectTile(
-            "/assets/images/projects/tapetv/tapetv1.jpg",
+            "/assets/images/projects/tapetv/tapetv1-small.jpg",
             "tape.tv",
             "Full-time employment. 2012 – 2014",
             "/projects/tapetv/",

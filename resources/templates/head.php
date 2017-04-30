@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="/assets/images/favicon.ico">
     <script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js" async></script>
-    <script type="text/javascript" src="/assets/js/tether.min.js" async></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js" async></script>
-    <script type="text/javascript" src="/assets/js/typed.min.js" async></script>
-    <script type="text/javascript" src="/assets/js/main.js" async></script>
+    <script type="text/javascript" src="/assets/js/tether.min.js" defer></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js" defer></script>
+    <script type="text/javascript" src="/assets/js/typed.min.js" defer></script>
+    <script type="text/javascript" src="/assets/js/main.js" defer></script>
