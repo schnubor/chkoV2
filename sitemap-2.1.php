@@ -61,7 +61,7 @@
     // will be skipped too.
     // Example: "https://www.plop.at/print" will also skip
     //   https://www.plop.at/print/bootmanager.html
-    $skip_url = array ();
+    $skip_url = array ("https://chko.org/legal");
     
 
     // General information for search engines how often they should crawl the page.
