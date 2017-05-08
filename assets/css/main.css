@@ -183,7 +183,8 @@ footer nav .nav .nav-link {
   text-decoration: none;
 }
 #about h1 {
-  font-size: 2rem;
+  font-weight: 200;
+  font-size: 2.5rem;
   margin: 90px 0 40px;
   color: #202020;
 }
@@ -217,7 +218,7 @@ footer nav .nav .nav-link {
   color: #9e9e9e;
 }
 #about address a:hover {
-  color: #da432b;
+  color: #97abca;
   text-decoration: none;
 }
 #about .btn {
@@ -228,8 +229,8 @@ footer nav .nav .nav-link {
   transition: .2s all;
 }
 #about .btn:hover {
-  border: 1px solid #da432b;
-  color: #da432b;
+  border: 1px solid #97abca;
+  color: #97abca;
 }
 .projects h2 {
   font-weight: 200;
@@ -372,4 +373,10 @@ footer small {
 }
 #contact .warning {
   margin-top: 20px;
+}
+#contact h1 {
+  font-weight: 200;
+  font-size: 2.5rem;
+  margin: 90px 0 40px;
+  color: #202020;
 }
