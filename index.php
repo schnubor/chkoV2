@@ -16,7 +16,7 @@ $useH1 = true;
 
         <div id="home" class="container">
             
-            <h1>Full-stack web developer and UI designer from Berlin.</h1> <br>
+            <h1>Full-stack web developer and <br>UI designer from Berlin.</h1>
             <p class="lead intro">
                 I design, build and ship web applications since 2008 and
                 enjoy helping enthusiastic people bringing their ideas to life,

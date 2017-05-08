@@ -43,7 +43,6 @@
   color: #F1F1F1;
   padding: 40px;
   margin-bottom: 40px;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .jumbotron {
@@ -64,7 +63,6 @@
 .jumbotron h1,
 .jumbotron p.h1 {
   font-size: 1em;
-  text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 2px;
 }
@@ -109,7 +107,6 @@ nav {
 }
 footer nav {
   float: left;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 footer nav .nav .nav-link {
   color: #202020;
@@ -152,11 +149,16 @@ footer nav .nav .nav-link {
 .nav .nav-link:hover {
   opacity: 1;
 }
+#home h1 {
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 #home .intro {
-  font-size: 32px;
+  font-size: 1.5rem;
   width: 80%;
-  font-family: 'Rubik', Helvetica, sans-serif;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 @media screen and (max-width: 768px) {
   #home .intro {
@@ -180,9 +182,6 @@ footer nav .nav .nav-link {
   color: #57cb54;
   text-decoration: none;
 }
-#about {
-  font-family: 'Rubik', Helvetica, sans-serif;
-}
 #about h1 {
   font-size: 2rem;
   margin: 90px 0 40px;
@@ -201,7 +200,6 @@ footer nav .nav .nav-link {
 #about p {
   line-height: 2em;
   font-size: 18px;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 #about p a {
   color: #da432b;
@@ -231,38 +229,31 @@ footer nav .nav .nav-link {
   border: 1px solid #da432b;
   color: #da432b;
 }
-.projects {
-  font-family: 'Rubik', Helvetica, sans-serif;
-}
 .projects h2 {
-  font-family: 'Rubik', Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
   margin: 90px 0 40px;
 }
 .projects img {
   width: 100%;
 }
 .projects h3 {
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Rubik', Helvetica, sans-serif;
-  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 200;
   letter-spacing: 1px;
   margin-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .projects a {
   color: black;
   text-decoration: none;
   transition: .2s all;
 }
-.projects a:hover {
-  color: #da432b;
-}
 .projects p {
   color: #9e9e9e;
   letter-spacing: 1px;
   font-weight: 200;
-  font-size: 12px;
+  font-size: .8rem;
   margin-bottom: 0;
 }
 .projects ul {
@@ -274,12 +265,12 @@ footer nav .nav .nav-link {
 .projects ul li {
   font-family: 'Droid Sans Mono', Helvetica, sans-serif;
   display: inline-block;
-  border-radius: 3px;
-  border: 1px solid #9e9e9e;
-  color: #9e9e9e;
+  border-radius: 4px;
+  color: #97abca;
+  background-color: #e8f8ff;
   font-size: 12px;
   letter-spacing: 1px;
-  padding: 2px 6px;
+  padding: 4px 8px;
   margin-bottom: 4px;
 }
 .singleProject .images img {
@@ -301,7 +292,6 @@ footer a:hover {
   color: #da432b;
 }
 footer small {
-  font-family: 'Rubik', Helvetica, sans-serif;
   color: #9e9e9e;
   letter-spacing: 1px;
 }
@@ -312,10 +302,10 @@ footer small {
   border-color: #da432b;
 }
 .h1 h1 {
-  font-size: 2rem;
+  font-weight: 200;
+  font-size: 2.5rem;
   margin: 90px 0 40px;
   color: #202020;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 .text {
   letter-spacing: 1px;
@@ -324,10 +314,8 @@ footer small {
   font-size: 2rem;
   margin: 90px 0 40px;
   color: #202020;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 .text blockquote {
-  font-family: 'Rubik', Helvetica, sans-serif;
   font-style: italic;
   margin-bottom: 40px;
 }
@@ -339,11 +327,9 @@ footer small {
   font-weight: bold;
   color: #202020;
   margin: 40px 0;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 .text a {
   color: #da432b;
-  font-family: 'Droid Sans Mono', Helvetica, sans-serif;
 }
 .text a:hover {
   text-decoration: none;
@@ -355,7 +341,6 @@ footer small {
   color: #707070;
   line-height: 2em;
   font-size: 18px;
-  font-family: 'Rubik', Helvetica, sans-serif;
 }
 .text .btn {
   margin-top: 40px;
@@ -378,7 +363,6 @@ footer small {
   font-weight: 500;
 }
 .text .form-control {
-  font-family: 'Rubik', Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 #contact .warning {
