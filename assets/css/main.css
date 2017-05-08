@@ -202,7 +202,9 @@ footer nav .nav .nav-link {
   font-size: 18px;
 }
 #about p a {
-  color: #da432b;
+  color: #97abca;
+  background-color: #e8f8ff;
+  padding: 4px 6px;
 }
 #about p a:hover {
   text-decoration: none;
@@ -289,7 +291,7 @@ footer a {
 footer a:hover {
   opacity: 1;
   text-decoration: none;
-  color: #da432b;
+  color: #97abca;
 }
 footer small {
   color: #9e9e9e;
@@ -299,7 +301,7 @@ footer small {
   margin-top: 60px;
 }
 .form-control:focus {
-  border-color: #da432b;
+  border-color: #97abca;
 }
 .h1 h1 {
   font-weight: 200;
@@ -329,7 +331,9 @@ footer small {
   margin: 40px 0;
 }
 .text a {
-  color: #da432b;
+  color: #97abca;
+  background-color: #e8f8ff;
+  padding: 4px 6px;
 }
 .text a:hover {
   text-decoration: none;
@@ -350,6 +354,7 @@ footer small {
   background-color: transparent;
   transition: .2s all;
   font-family: 'Droid Sans Mono', Helvetica, sans-serif;
+  padding: 10px;
 }
 .text .btn:hover {
   color: #202020;

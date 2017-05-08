@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/droidsansmono.css">
-    <link rel="stylesheet" href="/assets/css/rubik.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="/assets/images/favicon.ico">
