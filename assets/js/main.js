@@ -1,4 +1,6 @@
 $(function() {
+    console.log( "Made with 🍔" );
+
     $('[data-toggle="tooltip"]').tooltip()
 
     // Kontaktanfrage
