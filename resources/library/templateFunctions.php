@@ -48,10 +48,10 @@
 
     function renderProjectTile($image, $title, $description, $link, $right = false, $tags = [])
     {
-        $cssClass = "col-md-5";
+        $cssClass = "col-md-5 project-tile";
         // set class depending on position
         if( $right ) {
-            $cssClass = "col-md-5 offset-md-2";
+            $cssClass = "col-md-5 offset-md-2 project-tile";
         }
         echo "<div class=\"". $cssClass . "\">";
         echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\">";
@@ -123,6 +123,6 @@
     
     function renderBackButton()
     {
-	    echo '<a href="/projects/" class="btn">&#8592; Back to overview</a>';
+	    echo '<a href="/projects/" class="btn"><i class="fa fa-chevron-left"></i> Back to overview</a>';
     }
 ?>

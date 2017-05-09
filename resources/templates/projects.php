@@ -17,7 +17,7 @@
             ['PHP', 'Laravel', 'CMS', 'Digital Ocean'] ) ?>
     </div>
 
-    <div class="row mt60">
+    <div class="row">
         <?php renderProjectTile(
             "/assets/images/projects/grandbrothers/grandbrothers1-small.jpg",
             "Grandbrothersmusic.com",
@@ -35,7 +35,7 @@
             ['PHP', 'Laravel', 'REST', 'Vue.js', 'Digital Ocean'] ) ?>
     </div>
 
-    <div class="row mt60">
+    <div class="row">
         <?php renderProjectTile(
             "/assets/images/projects/sixpianos/sixpianos1-small.jpg",
             "Steve Reich – Six Pianos",
@@ -47,7 +47,7 @@
 
     <h2>Employments</h2>
 
-    <div class="row mt60">
+    <div class="row">
         <?php renderProjectTile(
             "/assets/images/projects/styla/styla1-small.jpg",
             "styla.com",
