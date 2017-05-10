@@ -50,26 +50,8 @@
     </div>
 </footer>
 
-<script>
-  $(function(){
-      $(".typer").typed({
-        strings: [
-            "Full-stack developer",
-            "Video games addict 🕹️",
-            "Software engineer",
-            "Laravel fanboy",
-            "Vue.js fanboy",
-            "Open source defender",
-            "Burger lover 🍔 ",
-            "HTML/CSS/JS coach",
-            "Head of Shoulders",
-            "Technical SEO engineer"
-        ],
-        typeSpeed: 60,
-        loop: true,
-        backDelay: 1500,
-        cursorChar: '_',
-        shuffle: true
-      });
-  });
-</script>
+<script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js" defer></script>
+<script type="text/javascript" src="/assets/js/tether.min.js" defer></script>
+<script type="text/javascript" src="/assets/js/bootstrap.min.js" defer></script>
+<script type="text/javascript" src="/assets/js/typed.min.js" defer></script>
+<script type="text/javascript" src="/assets/js/main.js" async></script>
