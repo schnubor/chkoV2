@@ -10,7 +10,7 @@
 
         <?php renderProjectTile(
             "/assets/images/projects/kioskroyal/kioskroyal1-small.jpg",
-            "kiosk-royal.com",
+            "Kiosk-Royal.com",
             "Design agency portfolio.",
             "/projects/kioskroyal/",
             true,
@@ -28,7 +28,7 @@
 
         <?php renderProjectTile(
             "/assets/images/projects/fortherecord/fortherecord1-small.jpg",
-            "therecord.de",
+            "Therecord.de",
             "Platform for vinyl collectors and part of my master thesis.",
             "/projects/therecord/",
             true,

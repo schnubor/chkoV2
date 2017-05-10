@@ -18,7 +18,7 @@ $currentPage = "Legal";
         <?php require_once(TEMPLATES_PATH . '/header.php'); ?>
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
-        <div id="legal" class="container text">
+        <div id="legal" class="container text h1">
             <h1>Legal information</h1>
 
             <div class="row">
