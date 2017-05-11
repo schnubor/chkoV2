@@ -38,9 +38,11 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/grandbrothers/grandbrothers3.jpg" alt="screenshot of the grandbrothers homepage">
-            <img src="/assets/images/projects/grandbrothers/grandbrothers2.jpg" alt="screenshot of the grandbrothers homepage">
-            <img src="/assets/images/projects/grandbrothers/grandbrothers1.jpg" alt="screenshot of the grandbrothers homepage">
+            <?php 
+                projectImage( 'grandbrothers', 'grandbrothers3', 'Screenshot of the Grandsbrothers Homepage');
+                projectImage( 'grandbrothers', 'grandbrothers2', 'Screenshot of the Grandsbrothers Homepage');
+                projectImage( 'grandbrothers', 'grandbrothers1', 'Screenshot of the Grandsbrothers Homepage');
+            ?>
         </div>
 
         <div class="row">

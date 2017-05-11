@@ -38,7 +38,9 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/tapetv/tapetv3.jpg" alt="tape.tv website screenshot">
+            <?php 
+                projectImage( 'tapetv', 'tapetv3', 'Screenshot of the tape.tv website');
+            ?>
         </div>
 
         <div class="row">
@@ -57,7 +59,9 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/tapetv/tapetv2.jpg" alt="tape.tv mobile app design">
+            <?php 
+                projectImage( 'tapetv', 'tapetv2', 'tape.tv mobile app design');
+            ?>
         </div>
 
         <div class="row">

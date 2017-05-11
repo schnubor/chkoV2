@@ -32,7 +32,9 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/styla/styla1.jpg" alt="styla.com homepage">
+            <?php 
+                projectImage( 'styla', 'styla1', 'Screenshot of the Styla.com Homepage');
+            ?>
         </div>
 
         <div class="row">
@@ -69,9 +71,11 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck Magazine">
-            <img src="/assets/images/projects/styla/styla3.jpg" alt="Boohoo Stylefix Magazine">
-            <img src="/assets/images/projects/styla/styla4.jpg" alt="PKZ Magazine">
+            <?php
+                projectImage( 'styla', 'styla2', 'Screenshot of the Ludwigbeck Magazine');
+                projectImage( 'styla', 'styla3', 'Screenshot of the Boohoo Stylefix Magazine');
+                projectImage( 'styla', 'styla4', 'Screenshot of the PKZ Magazine');
+            ?>
         </div>
 
         <div class="row">

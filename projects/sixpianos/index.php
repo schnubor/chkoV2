@@ -45,8 +45,10 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/sixpianos/sixpianos1.jpg" alt="Six Pianos home screen">
-            <img src="/assets/images/projects/sixpianos/sixpianos2.jpg" alt="Kiosk Royal projects">
+            <?php 
+                projectImage( 'sixpianos', 'sixpianos1', 'Screenshot of the home screen');
+                projectImage( 'sixpianos', 'sixpianos2', 'Screenshot of the alternate home screen');
+            ?>
         </div>
 
         <div class="row">

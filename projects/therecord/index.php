@@ -35,10 +35,12 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/fortherecord/fortherecord2.jpg" alt="Welcome screen">
-            <img src="/assets/images/projects/fortherecord/fortherecord1.jpg" alt="Vinyl collection">
-            <img src="/assets/images/projects/fortherecord/fortherecord3.jpg" alt="Vinyl collection">
-            <img src="/assets/images/projects/fortherecord/fortherecord4.jpg" alt="Vinyl collection">
+            <?php 
+                projectImage( 'fortherecord', 'fortherecord2', 'Screenshot of the Welcome screen');
+                projectImage( 'fortherecord', 'fortherecord1', 'Screenshot of the Vinyl collection');
+                projectImage( 'fortherecord', 'fortherecord3', 'Screenshot of the Statistics');
+                projectImage( 'fortherecord', 'fortherecord4', 'Screenshot of the Jukebox');
+            ?>
         </div>
 
         <div class="row">

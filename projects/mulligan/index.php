@@ -31,8 +31,10 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/mulligan/mulligan1.jpg" alt="search view">
-            <img src="/assets/images/projects/mulligan/mulligan2.jpg" alt="card details view">
+            <?php 
+                projectImage( 'mulligan', 'mulligan1', 'Screenshot of the search view');
+                projectImage( 'mulligan', 'mulligan2', 'Screenshot of the card details view');
+            ?>
         </div>
 
         <div class="row">

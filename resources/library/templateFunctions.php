@@ -49,13 +49,16 @@
     function renderProjectTile($image, $title, $description, $link, $right = false, $tags = [])
     {
         $cssClass = "col-md-5 project-tile";
+        $imageSrc = "/assets/images/projects/" . $image . "/". $image . "1-tiny.jpg";
+        $srcset = "/assets/images/projects/" . $image . "/". $image . "1-small.jpg 2x";
+
         // set class depending on position
         if( $right ) {
             $cssClass = "col-md-5 offset-md-2 project-tile";
         }
         echo "<div class=\"". $cssClass . "\">";
         echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\">";
-        echo "\t\t<img src=\"" . $image . "\" alt=\"" . $title . "\">";
+        echo "\t\t<img src=\"" . $imageSrc . "\" srcset=\"" . $srcset . "\" alt=\"" . $title . "\">";
         echo "\t</a>";
         echo "\t<a href=\"" . $link . "\" title=\"" . $title . "\"><h3>" . $title . "</h3></a>";
         echo "\t<p>" . $description . "</p>";
@@ -124,5 +127,10 @@
     function renderBackButton()
     {
 	    echo '<a href="/projects/" class="btn"><i class="fa fa-chevron-left"></i> Back to overview</a>';
+    }
+
+    function projectImage( $project, $image, $alt = 'Example Screen' )
+    {
+        echo '<img src="/assets/images/projects/' . $project . '/' . $image . '-small.jpg" srcset="/assets/images/projects/' . $project . '/' . $image . '-tiny.jpg 500w, /assets/images/projects/' . $project . '/' . $image . '-small.jpg 1140w, /assets/images/projects/' . $project . '/' . $image . '.jpg 2000w" alt="' . $alt . '"/>';
     }
 ?>

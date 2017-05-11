@@ -33,9 +33,11 @@ $currentPage = "Projects";
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/kioskroyal/kioskroyal2.jpg" alt="Welcome screen">
-            <img src="/assets/images/projects/kioskroyal/kioskroyal1.jpg" alt="Kiosk Royal projects">
-            <img src="/assets/images/projects/kioskroyal/kioskroyal3.jpg" alt="Backend UI of the CMS">
+            <?php 
+                projectImage( 'kioskroyal', 'kioskroyal2', 'Screenshot of the Welcome screen');
+                projectImage( 'kioskroyal', 'kioskroyal1', 'Screenshot of Kiosk Royal projects');
+                projectImage( 'kioskroyal', 'kioskroyal3', 'Screenshot of the Backend UI');
+            ?>
         </div>
 
         <div class="row">
