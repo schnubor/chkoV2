@@ -49,9 +49,19 @@
 
     <div class="row">
         <?php renderProjectTile(
+            "perspective",
+            "/assets/images/projects/perspective/perspective1-small.jpg",
+            "perspective.co",
+            "Full-time employment. 2017 – today",
+            "/projects/perspective/",
+            false,
+            ['React.js', 'Node.js', 'MongoDB', 'AWS'] ) ?>
+
+        <?php renderProjectTile(
             "styla",
+            "/assets/images/projects/styla/styla1-small.jpg",
             "styla.com",
-            "Full-time employment. 2014 – now",
+            "Full-time employment. 2014 – 2017",
             "/projects/styla/",
             false,
             ['Backbone.js', 'React.js', 'Node.js', 'SEO', 'AWS'] ) ?>

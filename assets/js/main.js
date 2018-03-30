@@ -8,13 +8,13 @@ $(function () {
                 "Full-stack developer",
                 "Video games addict 🕹️",
                 "Software engineer",
-                "Laravel fanboy",
-                "Vue.js fanboy",
-                "Open source defender",
+                "React.js, Node.js, YouNameIt.js",
+                "Open source supporter",
                 "Burger lover 🍔 ",
                 "HTML/CSS/JS coach",
                 "Head of Shoulders",
-                "Technical SEO engineer"
+                "Technical SEO engineer",
+                "Ramen Slurper 🍜"
             ],
             typeSpeed: 60,
             loop: true,
