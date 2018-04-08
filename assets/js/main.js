@@ -14,7 +14,8 @@ $(function () {
                 "HTML/CSS/JS coach",
                 "Head of Shoulders",
                 "Technical SEO engineer",
-                "Ramen Slurper 🍜"
+                "Ramen Slurper 🍜",
+                "Gundam Pilot"
             ],
             typeSpeed: 60,
             loop: true,
