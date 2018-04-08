@@ -9,7 +9,7 @@ $currentPage = "Projects";
 <html lang="en">
 <?php renderHead(
         "Christian Korndoerfer | Web Developer | perspective.co",
-        "After working for tape.tv I decided to stay in the glooming Berlin Startup world and joined a small company which would later be called Styla.",
+        "While working for Style for around 3 years I strengthened my knowledge in Frontend development and also more and more became interested in topic aside from that.",
         $currentPage,
         "/assets/images/projects/perspective/perspective1.jpg"
     ); ?>
@@ -19,71 +19,44 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
     <div class="container singleProject text">
-        <h1>styla.com</h1>
+        <h1>perspective.co</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    After working for <a href="/projects/tapetv/" title="my work for tape.tv">tape.tv</a>
-                    I decided to stay in the glooming Berlin Startup world and joined
-                    a small company which would later be called <a href="https://www.styla.com/" target="_blank" title="Styla - Storytelling sales">Styla</a> - settings sails to conquer
-                    the online magazine and content commerce market on an international scope as a SaaS.
+                    While working for <a href="/projects/styla/" title="my work for styla.com">Styla</a> for around 3 years I strengthend my 
+                    knowledge in Fronted developement and also more and more became interested in topics aside from that.
+                    I felt like I should put that knowledge to work and found the perfect opportunity to do just that over at 
+                    <a href="https://perspective.co/" target="_blank" title="Perspective Homepage">Perspective</a>.
                 </p>
             </div>
         </div>
 
         <div class="row images">
-            <img src="/assets/images/projects/styla/styla1.jpg" alt="styla.com homepage">
+            <img src="/assets/images/projects/perspective/perspective1.jpg" alt="perspective.co homepage">
         </div>
 
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
-                    I became part of 10-man-sized team (including founders) sitting in a
-                    shared office, drinking Club Mate. The startup vibe was real and I felt very much at home.
-                    I quickly found my role in the 5-man-sized development team as a <strong>Frontend Developer</strong>.
-                    Since the main application was also written in <strong>Backbone.js</strong> I began implementing new features
-                    and core improvements soon after.
+                    At the time Perspective was operating as pure digital marketing agency with clients like Mercedes benz, Coca Cola or
+                    Zalando. Their plan however, was to transform themselves more into a fully fleshed out startup, building a software
+                    for creating mobile first websites with marketing features with ease. You can learn more in the video below.
+
+                    <br><br>
+
+                    Having the possibility to build a whole new software from scratch is every developers dream. Together with another very talented developer and
+                    Design team we started our journey concepting and building Perspective Studio. We decided on using a MERN 
+                    (MongoDB, Express, React.js, Node.js) stack architecture and knocked out an MVP within the first couple of months of our employment.
+                    During this time a learned alot about cleanly setting up new modules from scratch, implementing workflows and coding rules etc.  
                 </p>
             </div>
         </div>
 
         <div class="row images">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://player.vimeo.com/video/132720939" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/L7tZRpQ33SA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <p>
-                    Since being a SaaS there is always work for specific clients involved.
-                    I ended up building entire websites from scratch for clients like
-                    <a href="http://stories.ludwigbeck.de" title="Ludwigbeck Magazine" target="_blank">Ludwigbeck</a>,
-                    <a href="http://stylefix.boohoo.com" title="Boohoo Stylefix Magazine" target="_blank">Boohoo</a> and
-                    <a href="http://news.pkz.ch" title="PKZ homepage" target="_blank">PKZ</a>.
-                    All of them are built with <a href="http://octobercms.com/" title="OctoberCMS" target="_blank">OctoberCMS</a>, a very flexible CMS based on PHP,
-                    and hosted via <strong>AWS</strong>.
-                    Additionally for Ludwigbeck I was also responsible for the entire <strong>UI/UX design</strong> and integration of their existing Brand and Events APIs.
-                </p>
-            </div>
-        </div>
-
-        <div class="row images">
-            <img src="/assets/images/projects/styla/styla2.jpg" alt="Ludwigbeck Magazine">
-            <img src="/assets/images/projects/styla/styla3.jpg" alt="Boohoo Stylefix Magazine">
-            <img src="/assets/images/projects/styla/styla4.jpg" alt="PKZ Magazine">
-        </div>
-
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <p>
-                    Today Styla employs over 60 employees in a proper office and is still growing. We greatly improved our infrastructure
-                    by splitting our service up in <strong>multiple Microservices</strong>, mostly running on <strong>Node.js</strong> and <strong>React.js</strong>. Currently my job is to develop, improve and maintain some of those Microservices as a <strong>full-stack developer</strong>, improve our <strong>technical SEO</strong> capabilities and help clients implement our service.
-                    As everyone in the company I'm involved in developing a completely new layout engine for our magazines, using a <strong>machine learning</strong> approach.
-                </p>
-            </div>
-        </div>
-
 
         <?php renderBackButton(); ?>
     </div>

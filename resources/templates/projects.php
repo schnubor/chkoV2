@@ -50,28 +50,28 @@
     <div class="row">
         <?php renderProjectTile(
             "perspective",
-            "/assets/images/projects/perspective/perspective1-small.jpg",
             "perspective.co",
-            "Full-time employment. 2017 – today",
+            "Senior Full-Stack Developer, 2017 – today",
             "/projects/perspective/",
             false,
             ['React.js', 'Node.js', 'MongoDB', 'AWS'] ) ?>
 
         <?php renderProjectTile(
             "styla",
-            "/assets/images/projects/styla/styla1-small.jpg",
             "styla.com",
-            "Full-time employment. 2014 – 2017",
+            "Frontend-Developer, 2014 – 2017",
             "/projects/styla/",
-            false,
+            true,
             ['Backbone.js', 'React.js', 'Node.js', 'SEO', 'AWS'] ) ?>
+    </div>
 
+    <div class="row">
         <?php renderProjectTile(
             "tapetv",
             "tape.tv",
-            "Full-time employment. 2012 – 2014",
+            "UI/UX Designer and Developer, 2012 – 2014",
             "/projects/tapetv/",
-            true,
+            false,
             ['Ruby on Rails', 'Backbone.js', 'AWS'] ) ?>
     </div>
 </div>
