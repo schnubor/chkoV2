@@ -23,7 +23,6 @@ $currentPage = "Legal";
 
             <div class="row">
                 <div class="col-md-9 offset-md-1">
-                    <h3>Legal Disclosure</h3>
                     <p>Information in accordance with Section 5 TMG </p>
                     <p>
                         <strong>Christian Korndoerfer</strong><br />
@@ -49,6 +48,10 @@ $currentPage = "Legal";
                     <p>
                         <strong>Copyright</strong><br />
                         Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.
+                    </p>
+                    <p>
+                        <strong>Privacy</strong><br />
+                        This website is not collecting or processing any information about its visitors. It is also not utilizing any 3rd party tracking or anti-spam software and therefore does not need any Cookies.
                     </p>
                 </div>
             </div>

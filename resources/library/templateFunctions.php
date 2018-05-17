@@ -12,9 +12,9 @@
         );
 
 		// Add recaptcha script for contact page
-		if($currentPage == "Contact") {
-		    echo "\t<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\" async></script>\n";
-		}
+		// if($currentPage == "Contact") {
+		//     echo "\t<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\" async></script>\n";
+		// }
 
         // Add meta information
         require_once(TEMPLATES_PATH . '/head.php');

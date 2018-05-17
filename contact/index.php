@@ -36,7 +36,7 @@ $currentPage = "Contact";
                     </p>
                 </div>
 
-                <div class="col-md-5 text">
+                <!-- <div class="col-md-5 text">
                     <form class="form" action="<?php LIBRARY_PATH . "/sendMail.php" ?>" id="contactForm">
                         <div class="form-group">
                             <input class="form-control" type="text" name="email" placeholder="Your email" required>
@@ -53,7 +53,7 @@ $currentPage = "Contact";
                             <i class="fa fa-send" aria-hidden="true"></i> Send message
                         </button>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
 
