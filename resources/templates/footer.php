@@ -49,5 +49,3 @@
         </small>
     </div>
 </footer>
-
-<script type="text/javascript" src="/assets/js/main.min.js" async></script>
