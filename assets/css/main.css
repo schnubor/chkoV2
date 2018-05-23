@@ -48,6 +48,7 @@
 @media screen and (max-width: 768px) {
   .jumbotron {
     padding: 40px 0 30px;
+    height: auto;
   }
 }
 .jumbotron .logo {
@@ -109,14 +110,34 @@ nav {
 footer nav {
   float: left;
 }
+@media screen and (max-width: 768px) {
+  footer nav .nav {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+  }
+}
+footer nav .nav .nav-item {
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  footer nav .nav .nav-item {
+    line-height: 1;
+  }
+}
 footer nav .nav .nav-link {
   color: #202020;
   padding-right: 20px;
   padding-left: 0;
 }
 @media screen and (max-width: 768px) {
+  footer nav .nav .nav-link {
+    border: 0;
+  }
+}
+@media screen and (max-width: 768px) {
   footer nav {
-    display: none;
+    padding: 0;
   }
 }
 .nav li {
