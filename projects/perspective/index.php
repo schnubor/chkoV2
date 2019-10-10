@@ -54,7 +54,7 @@ $currentPage = "Projects";
 
         <div class="row images">
             <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="100%" src="https://youtu.be/To5qs0jPTWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/To5qs0jPTWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
 
