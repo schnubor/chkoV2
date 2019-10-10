@@ -172,15 +172,19 @@ footer nav .nav .nav-link {
   opacity: 1;
 }
 #home h1 {
-  font-weight: 200;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 2rem;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 #home .intro {
   font-size: 1.5rem;
   width: 80%;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   margin-top: 40px;
+  color: #9e9e9e;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 @media screen and (max-width: 768px) {
   #home .intro {
@@ -205,8 +209,9 @@ footer nav .nav .nav-link {
   text-decoration: none;
 }
 #about h1 {
-  font-weight: 200;
-  font-size: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1px;
   margin: 90px 0 40px;
   color: #202020;
 }
@@ -258,17 +263,18 @@ footer nav .nav .nav-link {
   padding-bottom: 40px;
 }
 .projects h2 {
-  font-weight: 200;
-  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 2rem;
   margin: 90px 0 40px;
+  color: #202020;
 }
 .projects img {
   width: 100%;
 }
 .projects h3 {
   font-size: 1.2rem;
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-weight: 400;
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -279,14 +285,13 @@ footer nav .nav .nav-link {
 }
 .projects p {
   color: #9e9e9e;
-  letter-spacing: 1px;
-  font-weight: 200;
-  font-size: .8rem;
+  font-weight: 400;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .projects ul {
   list-style-type: none;
-  margin-top: 20px;
+  margin-top: 0;
   padding: 0;
 }
 .projects ul li {
@@ -296,7 +301,6 @@ footer nav .nav .nav-link {
   color: #97abca;
   background-color: #e8f8ff;
   font-size: 12px;
-  letter-spacing: 1px;
   padding: 4px 8px;
   margin-bottom: 4px;
 }
@@ -329,13 +333,11 @@ footer small {
   border-color: #97abca;
 }
 .h1 h1 {
-  font-weight: 200;
-  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 2rem;
   margin: 90px 0 40px;
   color: #202020;
-}
-.text {
-  letter-spacing: 1px;
 }
 .text h1 {
   font-size: 2rem;
@@ -400,8 +402,9 @@ footer small {
   margin-top: 20px;
 }
 #contact h1 {
-  font-weight: 200;
-  font-size: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
   margin: 90px 0 40px;
   color: #202020;
+  letter-spacing: 1px;
 }

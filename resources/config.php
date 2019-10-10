@@ -17,7 +17,7 @@ $useH1 = false;
 
 $pages = [
     "About" => "/about",
-    "Projects" => "/projects",
+    "Work" => "/projects",
     "Contact" => "/contact",
 ];
 

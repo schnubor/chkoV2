@@ -23,17 +23,11 @@ $useH1 = true;
                 while keeping them clean, robust and maintainable.
             </p>
 
-            <div class="text" style="margin-top: -40px;">
+            <div class="text">
                 <a class="btn" href="/about/" title="About"><i class="fa fa-info" aria-hidden="true"></i> About</a>
                 <a class="btn" href="https://github.com/schnubor" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 <a class="btn" href="/about/CV.pdf" title="CV"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV</a>
             </div>
-            
-            <div class="projects">
-				<h2>Projects</h2>
-			</div>
-			
-            <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 
         <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>

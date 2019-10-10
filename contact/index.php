@@ -17,9 +17,9 @@ $currentPage = "Contact";
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div id="contact" class="container text">
-            <h1>Contact</h1>
+            <h1>— Contact</h1>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 offset-md-1">
                     <p>
                         Feel free to use the following form to get in touch with
                         me for any questions and/or job inquieries. You can also

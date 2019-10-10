@@ -19,7 +19,7 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
     <div class="container singleProject text">
-        <h1>perspective.co</h1>
+        <h1>— perspective.co</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
@@ -54,7 +54,7 @@ $currentPage = "Projects";
 
         <div class="row images">
             <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="100%" src="https://www.youtube.com/embed/L7tZRpQ33SA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" src="https://youtu.be/To5qs0jPTWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
 

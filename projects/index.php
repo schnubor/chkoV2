@@ -17,7 +17,7 @@ $currentPage = "Projects";
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div class="container h1" id="projects">
-	        <h1>Projects</h1>
+	        <h1>— Companies</h1>
             <?php require_once(TEMPLATES_PATH . '/projects.php'); ?>
         </div>
 

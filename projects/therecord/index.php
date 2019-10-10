@@ -20,7 +20,7 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
     <div class="container singleProject text">
-        <h1>The Record</h1>
+        <h1>— The Record</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>

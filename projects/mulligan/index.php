@@ -19,7 +19,7 @@ $currentPage = "Projects";
     <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
     <div class="container singleProject text">
-        <h1>Mulligan</h1>
+        <h1>— Mulligan</h1>
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <p>
