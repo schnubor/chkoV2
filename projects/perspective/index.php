@@ -40,7 +40,7 @@ $currentPage = "Projects";
                 <p>
                     At the time Perspective was operating as pure digital marketing agency with clients like Mercedes benz, Coca Cola or
                     Zalando. Their plan however, was to transform themselves more into a fully fleshed out startup, building a software
-                    for creating mobile first websites with marketing features with ease. You can learn more in the video below.
+                    for creating mobile first websites with marketing features with ease. And that's where I came in.
 
                     <br><br>
 

@@ -43,9 +43,9 @@ $currentPage = "About";
             <div class="row">
                 <div class="col-md-9 offset-md-1">
                     <p>
-                        Hi there, I'm Christian and I'm working as a web developer and SEO engineer for <a href="/projects/styla/" title="Styla" target="_blank">styla.com</a> in Berlin.
-                        Before Styla I worked as a frontend developer for the online music television service
-                        <a href="/projects/tapetv/" title="tape.tv">tape.tv</a> until the end of 2014.
+                        Hi there, I'm Christian, <?php printAge() ?> years old, and I'm currently working as a Senior Full-stack developer for <a href="/projects/perspective/" title="Perspective" target="_blank">perspective.co</a> in Berlin.
+                        Before Perspective I worked as a frontend developer and UI Designer for <a href="/projects/styla/" title="Styla" target="_blank">styla.com</a> and  for the online music television service
+                        <a href="/projects/tapetv/" title="tape.tv">tape.tv</a>.
                     </p>
                     <p>
                         I studied Information Technology at <a href="https://www.fh-zwickau.de/" title="FH Zwickau" target="_blank">FH Zwickau</a>, Germany, <strong>graduated as an
@@ -62,9 +62,9 @@ $currentPage = "About";
                     </p>
                     <p>
                         Naturally, as an engineer I'm eager for learning new things, figuring out how stuff works and solving problems.
-                        I enjoy working on challenging projects with others and value good thoughts and ideas. <br>
+                        I enjoy working on challenging projects with small but talented teams and value good thoughts and ideas. <br>
                         I believe that truly great apps can emerge, when knowledge meets skill,
-                        passion and an idea everyone believes in. Those apps are often defined by performance, 						robustness, scaleability, good code quality, swift deployment cycles and well thought-out UI aesthetics. <strong>As an engineer and designer I'm able combine the best of both worlds.</strong>
+                        passion and an idea everyone believes in. Those apps are often defined by performance, robustness, scaleability, good code quality, swift deployment cycles and well thought-out UI aesthetics. <strong>As an engineer and designer I'm able combine the best of both worlds.</strong>
                     </p>
                     <p>
                         For more information feel free to check out my

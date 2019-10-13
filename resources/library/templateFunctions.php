@@ -133,4 +133,13 @@
     {
         echo '<img src="/assets/images/projects/' . $project . '/' . $image . '-small.jpg" srcset="/assets/images/projects/' . $project . '/' . $image . '-tiny.jpg 500w, /assets/images/projects/' . $project . '/' . $image . '-small.jpg 1140w, /assets/images/projects/' . $project . '/' . $image . '.jpg 2000w" alt="' . $alt . '"/>';
     }
+    
+    function printAge() {
+	    $birthDate = "02/20/1987";
+		$birthDate = explode("/", $birthDate);
+		$age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+			? ((date("Y") - $birthDate[2]) - 1)
+			: (date("Y") - $birthDate[2]));
+		echo $age;
+    }
 ?>

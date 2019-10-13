@@ -361,6 +361,7 @@ footer small {
   color: #97abca;
   background-color: #e8f8ff;
   padding: 4px 6px;
+  font-family: 'Droid Sans Mono', monospace;
 }
 .text a:hover {
   text-decoration: none;
