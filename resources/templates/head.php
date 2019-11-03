@@ -15,4 +15,6 @@
     <script type="text/javascript" src="/assets/js/tether.min.js" defer></script>
     <script type="text/javascript" src="/assets/js/bootstrap.min.js" defer></script>
     <script type="text/javascript" src="/assets/js/typed.min.js" defer></script>
+    <script type="text/javascript" src="/assets/js/three.min.js" defer></script>
+    <script type="text/javascript" src="/assets/js/cube.js" defer></script>
     <script type="text/javascript" src="/assets/js/main.min.js" async></script>

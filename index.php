@@ -23,6 +23,8 @@ $useH1 = true;
                 while keeping them clean, robust and maintainable.
             </p>
 
+            <div id="canvas"></div>
+
             <div class="text">
                 <a class="btn" href="/about/" title="About"><i class="fa fa-info" aria-hidden="true"></i> About</a>
                 <a class="btn" href="https://github.com/schnubor" title="Github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>

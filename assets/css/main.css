@@ -195,6 +195,9 @@ footer nav .nav .nav-link {
   background-color: #e6cc44;
   border-radius: 0;
 }
+#home {
+  position: relative;
+}
 #home h1 {
   font-weight: 500;
   font-size: 2rem;
@@ -265,6 +268,19 @@ footer nav .nav .nav-link {
   background-color: #202020;
   color: #57cb54;
   text-decoration: none;
+}
+#canvas {
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  #canvas {
+    opacity: .5;
+  }
 }
 #about h1 {
   font-weight: 500;
