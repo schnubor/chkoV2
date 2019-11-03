@@ -348,8 +348,8 @@ footer nav .nav .nav-link {
   font-family: 'Droid Sans Mono', Helvetica, sans-serif;
   display: inline-block;
   border-radius: 4px;
-  color: #97abca;
-  background-color: #e8f8ff;
+  color: #707070;
+  background-color: rgba(230,204,68,0.3);
   font-size: 12px;
   padding: 4px 8px;
   margin-bottom: 4px;
