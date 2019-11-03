@@ -19,7 +19,7 @@ $useH1 = true;
             <h1>Full-stack web developer and <br>UI designer from Berlin.</h1>
             <p class="lead intro">
                 I design, build and ship web applications since 2008 and
-                enjoy helping enthusiastic people bringing their ideas to life,
+                enjoy helping enthusiastic people bringing their <a href="/projects">ideas</a> to life,
                 while keeping them clean, robust and maintainable.
             </p>
 

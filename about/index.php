@@ -68,7 +68,7 @@ $currentPage = "About";
                     </p>
                     <p>
                         For more information feel free to check out my
-                        <a href="/projects/" title="Projects">Projects</a>
+                        <a href="/projects/" title="projects">projects</a>
                         and <a href="/contact/" title="Contact form">get in touch</a> if you've any further questions or inquiries.
                     </p>
                 </div>
